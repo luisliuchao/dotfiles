@@ -682,3 +682,8 @@ noremap <silent><expr> / incsearch#go(<SID>config_easyfuzzymotion())
 noremap <silent><expr> ? incsearch#go(<SID>config_easyfuzzymotion({'command': '?'}))
 noremap <silent><expr> g? incsearch#go(<SID>config_easyfuzzymotion({'is_stay': 1}))
 
+" custom settings
+set number relativenumber
+set tabstop=2
+set shiftwidth=2
+set expandtab
