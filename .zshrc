@@ -100,6 +100,10 @@ alias vim="nvim"
 alias vi="nvim"
 alias ll='la -lah'
 
+alias trash="rmtrash"
+alias del="rmtrash"
+alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
+
 # vi-mode cursor shape settings 
 zle-keymap-select () {
 if [ "$TERM" = "xterm-256color" ]; then
