@@ -58,6 +58,7 @@ Plug 'bkad/CamelCaseMotion'
 Plug 'haya14busa/incsearch.vim'
 Plug 'haya14busa/incsearch-easymotion.vim'
 Plug 'haya14busa/incsearch-fuzzy.vim'
+Plug 'mileszs/ack.vim'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -681,6 +682,9 @@ endfunction
 noremap <silent><expr> / incsearch#go(<SID>config_easyfuzzymotion())
 noremap <silent><expr> ? incsearch#go(<SID>config_easyfuzzymotion({'command': '?'}))
 noremap <silent><expr> g? incsearch#go(<SID>config_easyfuzzymotion({'is_stay': 1}))
+
+nnoremap <silent> <leader>b :Buffers<CR>
+nnoremap <silent> <leader>e :FZF -m<CR>
 
 " custom settings
 set number relativenumber
