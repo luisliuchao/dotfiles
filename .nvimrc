@@ -59,6 +59,14 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'haya14busa/incsearch-easymotion.vim'
 Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'mileszs/ack.vim'
+Plug 'pangloss/vim-javascript'
+Plug 'scrooloose/syntastic'
+Plug 'mtscout6/syntastic-local-eslint.vim'
+Plug 'airblade/vim-gitgutter'
+Plug 'ervandew/supertab'
+Plug 'othree/html5.vim'
+Plug 'mustache/vim-mustache-handlebars'
+Plug 'prettier/vim-prettier'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -503,7 +511,7 @@ let g:javascript_enable_domhtmlcss = 1
 " vim-javascript
 augroup vimrc-javascript
     autocmd!
-    autocmd FileType javascript set tabstop=4|set shiftwidth=4|set expandtab softtabstop=4
+    autocmd FileType javascript set tabstop=2|set shiftwidth=2|set expandtab softtabstop=2
 augroup END
 
 
@@ -511,8 +519,8 @@ augroup END
 " vim-python
 augroup vimrc-python
     autocmd!
-    autocmd FileType python setlocal expandtab shiftwidth=4 tabstop=8 colorcolumn=79
-                \ formatoptions+=croq softtabstop=4
+    autocmd FileType python setlocal expandtab shiftwidth=2 tabstop=4 colorcolumn=79
+                \ formatoptions+=croq softtabstop=2
                 \ cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 augroup END
 
@@ -686,8 +694,35 @@ noremap <silent><expr> g? incsearch#go(<SID>config_easyfuzzymotion({'is_stay': 1
 nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>e :FZF -m<CR>
 
+" vim-javascript settings
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_ngdoc = 1
+let g:javascript_plugin_flow = 1
+set conceallevel=1
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+" execute eslint with --fix flag
+let g:syntastic_javascript_checkers = ['eslint']
+
+" autofix with eslint
+set autoread
+let g:syntastic_javascript_eslint_args = ['--fix']
+function! SyntasticCheckHook(errors)
+  checktime
+endfunction
+
+" silver search settings
+nnoremap \ :Ag<SPACE>
+
 " custom settings
 set number relativenumber
 set tabstop=2
 set shiftwidth=2
 set expandtab
+set softtabstop=2
