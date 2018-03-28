@@ -63,7 +63,7 @@ git
 git-flow
 vi-mode
 nvm
-nvm-auto-use
+nvm-auto
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -116,3 +116,5 @@ if [ "$TERM" = "xterm-256color" ]; then
   fi
 fi
 }
+
+nvm_auto_switch
