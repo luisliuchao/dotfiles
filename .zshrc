@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias vi="nvim"
 alias ll='la -lah'
+alias skrelease="bash ../sk-release.sh"
 
 alias trash="rmtrash"
 alias del="rmtrash"
