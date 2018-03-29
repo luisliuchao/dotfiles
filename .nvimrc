@@ -62,7 +62,6 @@ Plug 'mileszs/ack.vim'
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim'
-Plug 'airblade/vim-gitgutter'
 Plug 'ervandew/supertab'
 Plug 'othree/html5.vim'
 Plug 'mustache/vim-mustache-handlebars'
@@ -687,9 +686,9 @@ function! s:config_easyfuzzymotion(...) abort
                 \ }), get(a:, 1, {}))
 endfunction
 
-noremap <silent><expr> / incsearch#go(<SID>config_easyfuzzymotion())
-noremap <silent><expr> ? incsearch#go(<SID>config_easyfuzzymotion({'command': '?'}))
-noremap <silent><expr> g? incsearch#go(<SID>config_easyfuzzymotion({'is_stay': 1}))
+noremap <silent><expr> <space>/ incsearch#go(<SID>config_easyfuzzymotion())
+noremap <silent><expr> <space>? incsearch#go(<SID>config_easyfuzzymotion({'command': '?'}))
+noremap <silent><expr> <space>g? incsearch#go(<SID>config_easyfuzzymotion({'is_stay': 1}))
 
 nnoremap <silent> <leader>b :Buffers<CR>
 nnoremap <silent> <leader>e :FZF -m<CR>
