@@ -66,6 +66,7 @@ Plug 'ervandew/supertab'
 Plug 'othree/html5.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier'
+Plug 'godlygeek/tabular'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -725,3 +726,7 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set softtabstop=2
+
+"" Buffer nav
+nnoremap <Tab> :bn<CR>
+nnoremap <S-Tab> :bp<CR>
