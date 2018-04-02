@@ -105,19 +105,20 @@ alias skrelease="bash ../sk-release.sh"
 alias trash="rmtrash"
 alias del="rmtrash"
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
+alias cl="clear"
 
 # vi-mode cursor shape settings 
-zle-keymap-select () {
-if [ "$TERM" = "xterm-256color" ]; then
-  if [ $KEYMAP = vicmd ]; then
-    # the command mode for vi
-    echo -ne "\e[2 q"
-  else
-    # the insert mode for vi
-    echo -ne "\e[4 q"
-  fi
-fi
-}
+# zle-keymap-select () {
+# if [ "$TERM" = "xterm-256color" ]; then
+#   if [ $KEYMAP = vicmd ]; then
+#     # the command mode for vi
+#     echo -ne "\e[2 q"
+#   else
+#     # the insert mode for vi
+#     echo -ne "\e[4 q"
+#   fi
+# fi
+# }
 
 # nvm auto switch with .nvmrc
 nvm_auto_switch

@@ -68,6 +68,7 @@ Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier'
 Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'benmills/vimux'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -731,3 +732,13 @@ set softtabstop=2
 "" Buffer nav
 nnoremap <Tab> :bn<CR>
 nnoremap <S-Tab> :bp<CR>
+
+" vimux settings
+" Prompt for a command to run
+map <leader>vp :VimuxPromptCommand<CR>
+" Run last command executed by VimuxRunCommand
+map <leader>vl :VimuxRunLastCommand<CR>
+" Inspect runner pane
+map <leader>vi :VimuxInspectRunner<CR>
+" Zoom the tmux runner pane
+map <leader>vz :VimuxZoomRunner<CR>
