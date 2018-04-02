@@ -67,6 +67,7 @@ Plug 'othree/html5.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier'
 Plug 'godlygeek/tabular'
+Plug 'christoomey/vim-tmux-navigator'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
