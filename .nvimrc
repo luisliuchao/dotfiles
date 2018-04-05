@@ -745,3 +745,16 @@ map <leader>vz :VimuxZoomRunner<CR>
 
 " delimitMate settings to expand line when hitting <CR>
 imap <expr><CR> pumvisible() ? "\<C-n>" : "<Plug>delimitMateCR"
+
+" quick command in insert mode http://vim.wikia.com/wiki/Quick_command_in_insert_mode
+inoremap II <Esc>I
+inoremap AA <Esc>A
+inoremap OO <Esc>O
+inoremap SS <Esc>S
+inoremap DD <Esc>dd
+inoremap UU <Esc>u
+
+inoremap <C-l> <Esc>la
+inoremap <C-h> <Esc>hi
+inoremap <C-j> <Esc>o
+inoremap <C-k> <Esc>O
