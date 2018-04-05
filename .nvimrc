@@ -730,8 +730,8 @@ set expandtab
 set softtabstop=2
 
 "" Buffer nav
-nnoremap <Tab> :bn<CR>
-nnoremap <S-Tab> :bp<CR>
+nnoremap <leader><leader> :bn<CR>
+nnoremap <leader><Tab> :bp<CR>
 
 " vimux settings
 " Prompt for a command to run
