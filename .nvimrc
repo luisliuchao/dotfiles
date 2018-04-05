@@ -59,10 +59,7 @@ Plug 'haya14busa/incsearch.vim'
 Plug 'haya14busa/incsearch-easymotion.vim'
 Plug 'haya14busa/incsearch-fuzzy.vim'
 Plug 'mileszs/ack.vim'
-Plug 'pangloss/vim-javascript'
-Plug 'scrooloose/syntastic'
 Plug 'mtscout6/syntastic-local-eslint.vim'
-Plug 'othree/html5.vim'
 Plug 'mustache/vim-mustache-handlebars'
 Plug 'prettier/vim-prettier'
 Plug 'godlygeek/tabular'
@@ -70,6 +67,8 @@ Plug 'christoomey/vim-tmux-navigator'
 Plug 'benmills/vimux'
 Plug 'chrisbra/nrrwrgn'
 Plug 'valloric/youcompleteme'
+Plug 'marijnh/tern_for_vim'
+Plug 'othree/yajs.vim'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -120,7 +119,7 @@ Plug 'mattn/emmet-vim'
 
 " javascript
 "" Javascript Bundle
-Plug 'jelera/vim-javascript-syntax'
+" Plug 'jelera/vim-javascript-syntax'
 
 
 " python
@@ -743,3 +742,6 @@ map <leader>vl :VimuxRunLastCommand<CR>
 map <leader>vi :VimuxInspectRunner<CR>
 " Zoom the tmux runner pane
 map <leader>vz :VimuxZoomRunner<CR>
+
+" delimitMate settings to expand line when hitting <CR>
+imap <expr><CR> pumvisible() ? "\<C-n>" : "<Plug>delimitMateCR"
