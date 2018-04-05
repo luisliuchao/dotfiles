@@ -640,9 +640,9 @@ nmap s <Plug>(easymotion-s2)
 nmap t <Plug>(easymotion-t2)
 
 " vim-incsearch settings
-" map /  <Plug>(incsearch-forward)
-" map ?  <Plug>(incsearch-backward)
-" map g/ <Plug>(incsearch-stay)
+map /  <Plug>(incsearch-forward)
+map ?  <Plug>(incsearch-backward)
+map g/ <Plug>(incsearch-stay)
 
 set hlsearch
 let g:incsearch#auto_nohlsearch = 1
@@ -758,3 +758,6 @@ inoremap <C-l> <Esc>la
 inoremap <C-h> <Esc>hi
 inoremap <C-j> <Esc>o
 inoremap <C-k> <Esc>O
+
+" close pane
+noremap <leader>q :close<CR>
