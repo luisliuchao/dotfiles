@@ -69,6 +69,7 @@ Plug 'chrisbra/nrrwrgn'
 Plug 'valloric/youcompleteme'
 Plug 'marijnh/tern_for_vim'
 Plug 'othree/yajs.vim'
+Plug 'moll/vim-bbye'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -380,8 +381,7 @@ nnoremap <leader>sd :DeleteSession<CR>
 nnoremap <leader>sc :CloseSession<CR>
 
 "" Tabs
-nnoremap <Tab> gt
-nnoremap <S-Tab> gT
+nnoremap <S-Tab> gt
 nnoremap <silent> <S-t> :tabnew<CR>
 
 "" Set working directory

@@ -107,6 +107,9 @@ alias del="rmtrash"
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 alias cl="clear"
 
+alias stratus='ssh skdeployuser@stratus.smartkarma.com'
+alias nimbus='ssh ubuntu@nimbus.smartkarma.com'
+
 # vi-mode cursor shape settings 
 # zle-keymap-select () {
 # if [ "$TERM" = "xterm-256color" ]; then
