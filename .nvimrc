@@ -71,6 +71,7 @@ Plug 'marijnh/tern_for_vim'
 Plug 'othree/yajs.vim'
 Plug 'moll/vim-bbye'
 Plug 'tpope/vim-obsession'
+Plug 'wakatime/vim-wakatime'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
