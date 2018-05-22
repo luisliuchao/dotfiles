@@ -111,6 +111,8 @@ alias stratus='ssh skdeployuser@stratus.smartkarma.com'
 alias nimbus='ssh ubuntu@nimbus.smartkarma.com'
 alias ec2='ssh -i ~/.ssh/aws.rsa.pem ec2-user@ec2-13-250-54-64.ap-southeast-1.compute.amazonaws.com'
 
+alias jn='jupyter-notebook'
+
 # vi-mode cursor shape settings 
 # zle-keymap-select () {
 # if [ "$TERM" = "xterm-256color" ]; then
@@ -156,3 +158,5 @@ alias mux="tmuxinator"
 # End:
 # vim: ft=zsh sw=2 ts=2 et
 
+# export conda path
+export PATH=/anaconda2/bin:$PATH
