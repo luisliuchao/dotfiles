@@ -107,7 +107,7 @@ alias del="rmtrash"
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 alias cl="clear"
 
-alias stratus='ssh skdeployuser@stratus.smartkarma.com'
+alias stratus='ssh skdeployuser@stratus-sg.smartkarma.com'
 alias nimbus='ssh ubuntu@nimbus.smartkarma.com'
 alias ec2='ssh -i ~/.ssh/aws.rsa.pem ec2-user@ec2-13-250-54-64.ap-southeast-1.compute.amazonaws.com'
 
