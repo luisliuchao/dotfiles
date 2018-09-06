@@ -66,12 +66,14 @@ Plug 'godlygeek/tabular'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'benmills/vimux'
 Plug 'chrisbra/nrrwrgn'
-Plug 'valloric/youcompleteme'
+" Plug 'valloric/youcompleteme'
 Plug 'marijnh/tern_for_vim'
 Plug 'othree/yajs.vim'
 Plug 'moll/vim-bbye'
 Plug 'tpope/vim-obsession'
 Plug 'wakatime/vim-wakatime'
+Plug 'wellle/targets.vim'
+Plug 'michaeljsmith/vim-indent-object'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -127,7 +129,7 @@ Plug 'mattn/emmet-vim'
 
 " python
 "" Python Bundle
-Plug 'davidhalter/jedi-vim'
+" Plug 'davidhalter/jedi-vim'
 Plug 'raimon49/requirements.txt.vim', {'for': 'requirements'}
 
 
