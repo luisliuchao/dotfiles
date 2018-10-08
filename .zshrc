@@ -113,6 +113,8 @@ alias ec2='ssh -i ~/.ssh/aws.rsa.pem ec2-user@ec2-13-250-54-64.ap-southeast-1.co
 
 alias jn='jupyter-notebook'
 
+alias cat="bat"
+
 # vi-mode cursor shape settings 
 # zle-keymap-select () {
 # if [ "$TERM" = "xterm-256color" ]; then
@@ -160,3 +162,4 @@ alias mux="tmuxinator"
 
 # export conda path
 export PATH=/anaconda2/bin:$PATH
+export JAVA_HOME=$(/usr/libexec/java_home)
