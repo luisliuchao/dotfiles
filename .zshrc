@@ -114,6 +114,14 @@ alias ec2='ssh -i ~/.ssh/aws.rsa.pem ec2-user@ec2-13-250-54-64.ap-southeast-1.co
 alias jn='jupyter-notebook'
 
 alias cat="bat"
+alias ping="prettyping"
+alias preview="fzf --preview 'bat --color \"always\" {}'"
+alias top="htop"
+alias help="tldr"
+
+# fzf settings
+export FZF_DEFAULT_OPTS='--height 40% --layout=reverse --border'
+
 
 # vi-mode cursor shape settings 
 # zle-keymap-select () {
@@ -163,3 +171,7 @@ alias mux="tmuxinator"
 # export conda path
 export PATH=/anaconda2/bin:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
