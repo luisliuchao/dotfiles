@@ -65,6 +65,7 @@ vi-mode
 nvm
 nvm-auto
 tmux
+z
 )
 
 source $ZSH/oh-my-zsh.sh
