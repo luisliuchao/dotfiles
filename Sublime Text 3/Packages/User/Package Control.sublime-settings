@@ -1,0 +1,35 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"1337 Color Scheme",
+		"A File Icon",
+		"All Autocomplete",
+		"Babel",
+		"BetterFindBuffer",
+		"Chain of Command",
+		"DocBlockr",
+		"EditorConfig",
+		"Emmet",
+		"ESLint-Formatter",
+		"Focus File on Sidebar",
+		"GitGutter",
+		"GitSavvy",
+		"Handlebars",
+		"Icon Fonts",
+		"JavaScriptNext - ES6 Syntax",
+		"NeoVintageous",
+		"Package Control",
+		"SCSS",
+		"SideBarEnhancements",
+		"Stylefmt",
+		"SublimeLinter",
+		"SublimeLinter-eslint",
+		"SublimeLinter-stylelint",
+		"SyntaxHighlighter Reloaded Color Scheme",
+		"Theme - Soda"
+	]
+}

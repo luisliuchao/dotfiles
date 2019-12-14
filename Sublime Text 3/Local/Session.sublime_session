@@ -1,0 +1,3664 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3207,
+	"last_window_id": 37,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 855.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"stau",
+						"statuses"
+					],
+					[
+						"statu",
+						"status"
+					],
+					[
+						"stat",
+						"statuses"
+					],
+					[
+						"email",
+						"emailReceiptStatuses"
+					],
+					[
+						"mi",
+						"minute\t(template.hbs)"
+					],
+					[
+						"platform",
+						"platform-email-message"
+					],
+					[
+						"plat",
+						"platform-email-messages,p"
+					],
+					[
+						"filter",
+						"filterReceipts"
+					],
+					[
+						"receip",
+						"receipts"
+					],
+					[
+						"fun",
+						"function\t(component.js)"
+					],
+					[
+						"isSch",
+						"isScheduled\t(component.js)"
+					],
+					[
+						"isSche",
+						"isScheduling\t(component.js)"
+					],
+					[
+						"isSc",
+						"isScheduled\t(corporate-email-campaign.js)"
+					],
+					[
+						"edit",
+						"editClass"
+					],
+					[
+						"med",
+						"media.isMobile:--compact:--full\t(component.js)"
+					],
+					[
+						"toggle",
+						"toggleAction"
+					],
+					[
+						"contact",
+						"contactList\t(corporate-email-campaign.js)"
+					],
+					[
+						"lcoker",
+						"lockerClass"
+					],
+					[
+						"snippet",
+						"snippetClass\t(component.js)"
+					],
+					[
+						"canRe",
+						"canReceiveMessageProxy"
+					],
+					[
+						"canView",
+						"canViewCommentsProxy"
+					],
+					[
+						"com",
+						"commentable"
+					],
+					[
+						"comme",
+						"comment"
+					],
+					[
+						"canViewCo",
+						"canViewComments"
+					],
+					[
+						"reo",
+						"resolve"
+					],
+					[
+						"canPostC",
+						"canPostCommentsProxy"
+					],
+					[
+						"comment",
+						"commentable"
+					],
+					[
+						"canpostCom",
+						"canPostCommentsProxy\t(globals.js)"
+					],
+					[
+						"commen",
+						"commentable"
+					],
+					[
+						"Promise",
+						"PromiseObject"
+					],
+					[
+						"isCo",
+						"isCorporateOfficer\t(account.js)"
+					],
+					[
+						"current",
+						"currentCompany"
+					],
+					[
+						"company-dis",
+						"company-disable-posting-comment\t(cannot-comment-reasons.js)"
+					],
+					[
+						"cannot",
+						"cannotCommentReasons"
+					],
+					[
+						"iscl",
+						"isClientOrIP"
+					],
+					[
+						"isClien",
+						"isClientOrIP"
+					],
+					[
+						"otherA",
+						"otherAccount\t(message-group.js)"
+					],
+					[
+						"message",
+						"message-group"
+					],
+					[
+						"pla",
+						"plans"
+					],
+					[
+						"find",
+						"findAll\t(component.js)"
+					],
+					[
+						"isIN",
+						"isInsightProvider"
+					],
+					[
+						"access",
+						"accessPasses"
+					],
+					[
+						"add",
+						"addAccessPass"
+					],
+					[
+						"insight",
+						"insight_provider"
+					],
+					[
+						"pro",
+						"props"
+					],
+					[
+						"acce",
+						"access"
+					],
+					[
+						"acc",
+						"account"
+					],
+					[
+						"class",
+						"classNames"
+					],
+					[
+						"canMesa",
+						"canMessageProxy\t(account.js)"
+					],
+					[
+						"recei",
+						"receiver"
+					],
+					[
+						"defau",
+						"defaultReason"
+					],
+					[
+						"receiv",
+						"receivers"
+					],
+					[
+						"sender",
+						"senderCanMessageProxy"
+					],
+					[
+						"canMes",
+						"canMessageProxy"
+					],
+					[
+						"repo",
+						"reportSpam"
+					],
+					[
+						"isIns",
+						"isInstaPass\t(account.js)"
+					],
+					[
+						"date",
+						"dateKey"
+					],
+					[
+						"main",
+						"mainClass"
+					],
+					[
+						"curren",
+						"currentUser"
+					],
+					[
+						"right",
+						"rightSide"
+					],
+					[
+						"insi",
+						"insightsLeft"
+					],
+					[
+						"isSbumi",
+						"isSubmitted\t(insight.js)"
+					],
+					[
+						"read",
+						"readPublicationsPromise"
+					],
+					[
+						"isSub",
+						"isSubmitted\t(insight.js)"
+					],
+					[
+						"isAccout",
+						"isAccountRead"
+					],
+					[
+						"ismin",
+						"isMineProxy.value\t(insight.js)"
+					],
+					[
+						"user",
+						"userTriggered"
+					],
+					[
+						"isShowing",
+						"isShowingLoadDetail"
+					],
+					[
+						"isSu",
+						"isSubmitted"
+					],
+					[
+						"allow",
+						"allowAnnotations"
+					],
+					[
+						"reload",
+						"reloadInsight"
+					],
+					[
+						"reloa",
+						"reloadInsight"
+					],
+					[
+						"readI",
+						"readItems"
+					],
+					[
+						"curre",
+						"currentUser"
+					],
+					[
+						"reads",
+						"readInsights"
+					],
+					[
+						"curn",
+						"currentUser"
+					],
+					[
+						"content-padd",
+						"content-padding-sm"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"isInsta",
+						"isInstaPass"
+					],
+					[
+						"chann",
+						"channelName"
+					],
+					[
+						"Pusher",
+						"PusherEventsMixin"
+					],
+					[
+						"activi",
+						"activityFilters"
+					],
+					[
+						"activ",
+						"activityFilters"
+					],
+					[
+						"earlist",
+						"earlist-date"
+					],
+					[
+						"isRefin",
+						"isRefiningActivities"
+					],
+					[
+						"acti",
+						"activities"
+					],
+					[
+						"lao",
+						"loadNext"
+					],
+					[
+						"insight-pro",
+						"insight-provider-directory"
+					],
+					[
+						"card",
+						"cardClass"
+					],
+					[
+						"contactC",
+						"contactCSV\t(urls.js)"
+					],
+					[
+						"left-pn",
+						"left-panel-width-small"
+					],
+					[
+						"left",
+						"left-panel-width"
+					],
+					[
+						"item",
+						"itemSnippet"
+					],
+					[
+						"cur",
+						"currentPage"
+					],
+					[
+						"cure",
+						"currentUser\t(component.js)"
+					],
+					[
+						"fu",
+						"function\t(component.js)"
+					],
+					[
+						"isClient",
+						"isClientComplianceOfficer"
+					],
+					[
+						"isCop",
+						"isComplianceOfficer"
+					],
+					[
+						"firebaseS",
+						"firebaseServiceWorkerTree"
+					],
+					[
+						"fireBaseSer",
+						"firebaseServiceWorkerSource"
+					],
+					[
+						"init",
+						"initializePromise"
+					],
+					[
+						"firebase",
+						"firebase"
+					],
+					[
+						"inclu",
+						"include"
+					],
+					[
+						"conta",
+						"contactables"
+					],
+					[
+						"por",
+						"promise"
+					],
+					[
+						"not",
+						"notExistingKey"
+					],
+					[
+						"csv",
+						"csv.headers"
+					],
+					[
+						"isDs",
+						"isDisabledReason\t(template.hbs)"
+					],
+					[
+						"parsed",
+						"parsedResults"
+					],
+					[
+						"parse",
+						"parsed\t(papa.min.js)"
+					],
+					[
+						"header",
+						"headers"
+					],
+					[
+						"exten",
+						"externalLibrary"
+					],
+					[
+						"show",
+						"showTable"
+					],
+					[
+						"dzFile",
+						"dzFileContent\t(component.js)"
+					],
+					[
+						"account",
+						"account\t(template.hbs)"
+					],
+					[
+						"accou",
+						"account"
+					],
+					[
+						"comp",
+						"computed\t(target-investor.js)"
+					],
+					[
+						"includ",
+						"includes\t(component.js)"
+					],
+					[
+						"geo",
+						"geography"
+					],
+					[
+						"indu",
+						"industry"
+					],
+					[
+						"count",
+						"country"
+					],
+					[
+						"removeI",
+						"removeItems\t(component.js)"
+					],
+					[
+						"removeIt",
+						"removeItem\t(template.hbs)"
+					],
+					[
+						"Watch",
+						"WatchlistAddModalComponent"
+					],
+					[
+						"canAdd",
+						"canAddToContactList"
+					],
+					[
+						"isCli",
+						"isClientOrIP"
+					],
+					[
+						"isCorporate",
+						"isCorporateOfficer"
+					],
+					[
+						"cached",
+						"cachedItems"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 269.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"list ",
+						"Package Control: List Packages"
+					],
+					[
+						"color sch",
+						"UI: Select Color Scheme"
+					],
+					[
+						"git ",
+						"git: log"
+					],
+					[
+						"lint",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"scheme",
+						"UI: Select Theme"
+					],
+					[
+						"insatll",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript (Babel)"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"jaba",
+						"Set Syntax: JavaScript (Babel)"
+					],
+					[
+						"eslin",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"eslint",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"instlal",
+						"Package Control: Install Package"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"editoco",
+						"Snippet: editorconfig"
+					],
+					[
+						"install paca",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"focus",
+						"Focus File on Sidebar"
+					],
+					[
+						"focuson",
+						"Focus File on Sidebar"
+					],
+					[
+						"focus ",
+						"Focus File on Sidebar"
+					],
+					[
+						"list pac",
+						"Package Control: List Packages"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"syntax ja",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git open ",
+						"github: open repo"
+					],
+					[
+						"git gutter goto",
+						"GitGutter: Goto Previous Change"
+					],
+					[
+						"git open",
+						"GitGutter: Goto Previous Change"
+					],
+					[
+						"git",
+						"GitGutter: Support Info"
+					],
+					[
+						"style",
+						"Run Stylefmt"
+					],
+					[
+						"js next",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"js nex",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"merge",
+						"Set Syntax: Sublimerge"
+					],
+					[
+						"gitbl",
+						"Git Blame"
+					],
+					[
+						"diff",
+						"Set Syntax: Diff"
+					],
+					[
+						"blame",
+						"Git Blame"
+					],
+					[
+						"hisotry",
+						"Git: Commit history"
+					],
+					[
+						"git sav",
+						"Preferences: GitSavvy Settings"
+					],
+					[
+						"history",
+						"Git: Commit history"
+					],
+					[
+						"git diff",
+						"git: diff"
+					],
+					[
+						"uninstall",
+						"Build With: Vintageous - Vintageous - Test (All)"
+					],
+					[
+						"prettier",
+						"Prettier: Format this file"
+					],
+					[
+						"package",
+						"Preferences: Browse Packages"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"keybinding",
+						"Preferences: Key Bindings"
+					],
+					[
+						"format",
+						"Format Code"
+					],
+					[
+						"js prettier",
+						"JsPrettier: Format Code"
+					],
+					[
+						"eslintforma",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"csv",
+						"CSV: Format with Default Values"
+					],
+					[
+						"pyth",
+						"Set Syntax: Python"
+					],
+					[
+						"",
+						"Build: Cancel"
+					],
+					[
+						"fix",
+						"Preferences: Settings – Syntax Specific"
+					],
+					[
+						"side bar",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: list",
+						"Package Control: List Packages"
+					],
+					[
+						"eslint form",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"syn js ne",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"syntax js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"syntax js ne",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"syntax han",
+						"Set Syntax: Handlebars"
+					],
+					[
+						"syntax sc",
+						"Set Syntax: SCSS"
+					],
+					[
+						"syntax css",
+						"Set Syntax: CSS"
+					],
+					[
+						"list pack",
+						"Package Control: List Packages"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"fopackage ",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 412.0
+			},
+			"console":
+			{
+				"height": 561.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"view.settings().get('font_face')"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/exchange-announcement-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/corporate-question-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/corporate-presentation-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/corporate-event-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/corporate-attachment-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/mixins/models/likeable-test.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/mixins/models/action-endpoint-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/comment.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/entity-news.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/corporate-question.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/entity-news.js",
+				"/Users/liuchao/Documents/sk-common/tests/unit/models/entity-news-test.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/likeable.js",
+				"/Users/liuchao/Documents/sk-foundry/app/models/foundry-role.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/insight.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/model-action-endpoint.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/action-endpoint.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/mixins/models/list.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/mixins/model-action-endpoint.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/mixins/model-likeable.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-question.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/exchange-announcement.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/exchange-announcement.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/corporate-event.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-event.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/corporate-attachment.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-presentation.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/corporate-presentation.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-attachment.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-detail/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-preview/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-reports/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/pods/entity/route-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/external-report.js",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/models/external-report-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-pane-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-reports/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-classification-insights-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-pane/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-pane/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-insights/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/entity.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-locker-item-detail/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-detail/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-recipients/template.hbs",
+				"/Users/liuchao/Documents/sk-foundry/app/models/email-receipt.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/email-receipt.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-recipients-count/component.js",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-group-email-receipts/template.hbs",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-group-email-view/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-item-edit/style.scss",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-recipients-count/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/contact-list.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-email-campaign.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-compose/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-activity-alert-modal/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/consts/email-receipt-statuses.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-infinity-loader/component.js",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-group-email-view/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-404-page/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/consts.js",
+				"/Users/liuchao/Documents/sk-common/addon/consts/time-scopes.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/email-receipt.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/platform-email-message.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-watchlist-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-recipients/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-infinity-loader/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mails-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-schedule/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-snippet/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-schedule/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-content-editor/style.scss",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mails-page/template.hbs",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-group-email-preview-actions/component.js",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-group-email-preview-actions/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/menu-items.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-news/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-detail/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-presentations/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-filing-compose-modal/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-presentation-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-presentation-add-button/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-add-button/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-filing-compose-modal/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/tests/integration/components/sk-presentation-add-button/component-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/news/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-report-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-report-add-button/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/presentations/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/filings/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-detail/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/filings/route.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-toggle-container/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-item-add-button/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-filing-add-button/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-filing-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-item-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-compose-modal/component.js",
+				"/Users/liuchao/Documents/sk-common/app/components/sk-toggle-container.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-discussion-add-button/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-news-compose-modal/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/router.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/corporate-report.js",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-report-sales-progress/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/styles/csstyle/flex-page.scss",
+				"/Users/liuchao/Documents/smartkarma-web/app/sector/insights/controller.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/profile/reports/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/insight-list.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/services/insight-list-storage.js",
+				"/Users/liuchao/Documents/sk-common/addon/services/cache-storage.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-insights/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/reports/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/insights/controller.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/reports/controller.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-classification-insights-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/sector/insights/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/insights/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/route.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-info-tooltip/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insight-longform/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-alert-watchlist/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-alert-snippet/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-alert-watchlist/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/alert.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/alert.js"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 111.0,
+				"where_history":
+				[
+					"",
+					"sk-foundry",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"hasMany('corporate-",
+					"model-action-",
+					"model-likea",
+					"model-action-endpoint",
+					"models/likeable",
+					"model-likeable",
+					"models/likeable",
+					"model-action-endpoint",
+					"models/action-endpoint",
+					"model-action-endpoint",
+					"model-likeable",
+					"smartkarma-web",
+					"hasMany('corporate-",
+					"hasMany('corporate-at",
+					"hasMany('corporate",
+					"hasMany('corporate-eve",
+					"hasMany('corporate-attach",
+					"auto-transition",
+					"sk-insights-pane",
+					"entity-news",
+					"news",
+					"/entity-news",
+					"entity-news",
+					"/news",
+					"part(entr",
+					"flex: 1",
+					"recipients",
+					"{{sk-mail-recipients",
+					"inject as s",
+					"undeliveredReceipts",
+					"platformEmailReceipts",
+					"allREceipts",
+					"status",
+					"STATUS_COLORS",
+					"sumReceipts",
+					"statusGroup",
+					"from 'sk-common",
+					"reason: {{",
+					"reason:{{",
+					"reason: ",
+					"statusTExt",
+					"platformEmailMessage",
+					"{{sk-mail-recipients",
+					"contactables",
+					"items",
+					".meta.",
+					"tempItem.contactList.contactables.length",
+					"custom-",
+					"sk-infinity-loader",
+					"{{#sk-infinity-loader",
+					"contactables",
+					"add('minu",
+					"send in ",
+					"sk-report",
+					"title",
+					"corporate-report",
+					"sk-report-add-button",
+					"sk-report-add-butotn",
+					"add-button-compo",
+					"add-button-componnet",
+					"class=clas",
+					"class=clss",
+					"tagName: ''",
+					"tagName: ';",
+					"tagName: '",
+					"import Component",
+					"item",
+					"sk-news-add-button",
+					"sk-discussion-add-button",
+					"sk-discussion-add-butotn",
+					"classNames=",
+					"class=(",
+					"classNames=",
+					"{{#sk-entity-news",
+					"items",
+					"-",
+					"\n-{{/",
+					"isPresentation",
+					"primary-ex",
+					"primary-re",
+					"primary-",
+					"external-reports",
+					"secondary-external",
+					"primary-reports",
+					"noun",
+					"inject as ser",
+					"view",
+					"canProceed",
+					"canProc",
+					"canProceed",
+					"entityWatched",
+					"anyEntityWatched",
+					"entityWatched",
+					"from Watchlists",
+					"specifyWatchlists:",
+					"specifyWatchlists",
+					"entityWatched",
+					"specifyWatchlists:",
+					"specifyWatchlists",
+					"anyEntityWatched",
+					"store",
+					"on-update-step",
+					"anyEntityWatched",
+					"on-update-",
+					"source <strong>",
+					"undeliveredReceipts",
+					"receipts",
+					"Receipts",
+					"receipts",
+					"recipients",
+					"allReceipts",
+					"contactables",
+					"recipients",
+					"sk-mail-recipients",
+					"{{sk-mail-receipts",
+					"{{sk-email-receipts",
+					"reaons",
+					"include: ",
+					"incldues: '",
+					"filterReceipts",
+					"totalUndeliveredReceiptsPct",
+					"filteredReceipts",
+					"currentUser",
+					"globals",
+					"<label>Body<",
+					"<lable>Body<",
+					"max-height",
+					"height"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"sk-discussion-disabled-me",
+					"pane.removeItem",
+					"removeItems",
+					"addItems",
+					"on-ctrl-enter-key",
+					"{{#",
+					"/*",
+					"{{#",
+					"<",
+					"module",
+					"lightSocialImage",
+					"import",
+					"{{#",
+					"'),",
+					"}}",
+					"{{#",
+					"class=\"",
+					"sk-watchlist-add-button",
+					"accountSubtype",
+					"showContactIR",
+					"globals.navigationMenu.login.title",
+					"firstUrl",
+					"ENV.APP.NEW_DATACLOUD_HOST",
+					"sk-common/mixins/components/document-upload",
+					"sk-common/mixins/components/pusher-events",
+					"sk-common/mixins/components/progress",
+					"sk-common/mixins/components/password-change",
+					"sk-common/mixins/components/insight-vertical-entity",
+					"sk-common/mixins/components/in-viewport",
+					"sk-common/mixins/components/filters-params",
+					"mixins/components/click-away",
+					"mixins/routes/breadcrumbs",
+					"mixins/components/is-hovering",
+					"routes/token-login",
+					"controllers/token-login",
+					"components/attachment-upload",
+					"components/cursor-clickable",
+					"serializers/attachment-upload",
+					"models/attachment-upload",
+					"import RollbackModelMixin from 'sk-common/mixins/models/rollback';",
+					"on-added",
+					"",
+					"import AttachmentMixin from 'sk-common/mixins/models/attachment';",
+					"canBeAddedToLocker",
+					"canBeRequestedPS",
+					"canPSBeRequested",
+					"canRequestPS",
+					"isPsManager",
+					"isPSManager",
+					"isNotPSManager",
+					"canAddToWatchlist",
+					"canBeMuted",
+					"canBeFollowed"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 39.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 120.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.show_commit_info":
+			{
+				"height": 121.0
+			},
+			"output.vi_out":
+			{
+				"height": 121.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"entity news test",
+						"sk-common/tests/unit/models/entity-news-test.js"
+					],
+					[
+						"entity news ",
+						"sk-common/addon/models/entity-news.js"
+					],
+					[
+						"exchange announcement test",
+						"sk-common/tests/unit/models/exchange-announcement-test.js"
+					],
+					[
+						"corporate quest test",
+						"sk-common/tests/unit/models/corporate-question-test.js"
+					],
+					[
+						"corproate presetnt test",
+						"sk-common/tests/unit/models/corporate-presentation-test.js"
+					],
+					[
+						"corporate event test",
+						"sk-common/tests/unit/models/corporate-event-test.js"
+					],
+					[
+						"corproaet attachment test",
+						"sk-common/tests/unit/models/corporate-attachment-test.js"
+					],
+					[
+						"likeable test",
+						"sk-common/tests/unit/mixins/models/likeable-test.js"
+					],
+					[
+						"action endpoint test",
+						"sk-common/tests/unit/mixins/models/action-endpoint-test.js"
+					],
+					[
+						"mixin models model-endpoint",
+						"sk-common/addon/mixins/models/model-action-endpoint.js"
+					],
+					[
+						"model likeable",
+						"smartkarma-web/app/mixins/model-likeable.js"
+					],
+					[
+						"likeable",
+						"sk-common/addon/mixins/models/likeable.js"
+					],
+					[
+						"mixin model likeable",
+						"sk-common/addon/mixins/models/likeable.js"
+					],
+					[
+						"model action endpoint",
+						"smartkarma-web/app/mixins/model-action-endpoint.js"
+					],
+					[
+						"corporate question",
+						"sk-common/addon/models/corporate-question.js"
+					],
+					[
+						"exchange announcment ",
+						"sk-common/addon/models/exchange-announcement.js"
+					],
+					[
+						"corproate event ",
+						"sk-common/addon/models/corporate-event.js"
+					],
+					[
+						"corporate attachment",
+						"sk-common/addon/models/corporate-attachment.js"
+					],
+					[
+						"corproate attachment",
+						"smartkarma-web/app/models/corporate-attachment.js"
+					],
+					[
+						"model corporate attachment",
+						"smartkarma-web/app/models/corporate-attachment.js"
+					],
+					[
+						"corproate attachment ",
+						"smartkarma-web/app/models/corporate-attachment.js"
+					],
+					[
+						"corporate presentation ",
+						"sk-common/addon/models/corporate-presentation.js"
+					],
+					[
+						"corporate presnetation",
+						"smartkarma-web/app/models/corporate-presentation.js"
+					],
+					[
+						"sk mail detail template",
+						"smartkarma-web/app/components/sk-mail-detail/template.hbs"
+					],
+					[
+						"sk mail previe wtmeplate",
+						"smartkarma-web/app/components/sk-mail-preview/template.hbs"
+					],
+					[
+						"external report model test",
+						"smartkarma-web/tests/unit/models/external-report-test.js"
+					],
+					[
+						"external reports model ",
+						"smartkarma-web/app/models/external-report.js"
+					],
+					[
+						"entity reports route test",
+						"smartkarma-web/tests/unit/pods/entity/route-test.js"
+					],
+					[
+						"sk entity reports component",
+						"smartkarma-web/app/components/sk-entity-reports/component.js"
+					],
+					[
+						"sk entity insights componnet",
+						"smartkarma-web/app/components/sk-entity-insights/component.js"
+					],
+					[
+						"sk pane page component",
+						"smartkarma-web/app/components/sk-pane-page/component.js"
+					],
+					[
+						"sk insights pane component",
+						"smartkarma-web/app/components/sk-insights-pane/component.js"
+					],
+					[
+						"sk classification insights template",
+						"smartkarma-web/app/components/sk-classification-insights-page/template.hbs"
+					],
+					[
+						"sk insights pane template",
+						"smartkarma-web/app/components/sk-insights-pane/template.hbs"
+					],
+					[
+						"sk enity reports template",
+						"smartkarma-web/app/components/sk-entity-reports/template.hbs"
+					],
+					[
+						"mixin email receipt",
+						"sk-common/addon/mixins/models/email-receipt.js"
+					],
+					[
+						"email receipt",
+						"sk-foundry/app/models/email-receipt.js"
+					],
+					[
+						"email recipinet template",
+						"smartkarma-web/app/components/sk-mail-recipients/template.hbs"
+					],
+					[
+						"sk locker item detail template",
+						"smartkarma-web/app/components/sk-locker-item-detail/template.hbs"
+					],
+					[
+						"sk locker detail template",
+						"smartkarma-web/app/components/sk-locker-item-detail/template.hbs"
+					],
+					[
+						"sk recipents count compnent",
+						"smartkarma-web/app/components/sk-mail-recipients-count/component.js"
+					],
+					[
+						"email recipinets template",
+						"smartkarma-web/app/components/sk-mail-recipients/template.hbs"
+					],
+					[
+						"group email receipts tmeplate",
+						"sk-foundry/app/components/foundry-group-email-receipts/template.hbs"
+					],
+					[
+						"foundry group email view tmeplate",
+						"sk-foundry/app/components/foundry-group-email-view/template.hbs"
+					],
+					[
+						"sk item edit style ",
+						"smartkarma-web/app/components/sk-item-edit/style.scss"
+					],
+					[
+						"sk mail reci count tmeplate",
+						"smartkarma-web/app/components/sk-mail-recipients-count/template.hbs"
+					],
+					[
+						"sk mail detail compnen",
+						"smartkarma-web/app/components/sk-mail-detail/component.js"
+					],
+					[
+						"sk mail receip count template",
+						"smartkarma-web/app/components/sk-mail-recipients-count/template.hbs"
+					],
+					[
+						"sk mail recipinets tmeplate",
+						"smartkarma-web/app/components/sk-mail-recipients/template.hbs"
+					],
+					[
+						"contact list ",
+						"smartkarma-web/app/models/contact-list.js"
+					],
+					[
+						"corproate emai",
+						"smartkarma-web/app/models/corporate-email-campaign.js"
+					],
+					[
+						"email receipt status ",
+						"sk-common/addon/consts/email-receipt-statuses.js"
+					],
+					[
+						"consts",
+						"sk-common/addon/consts.js"
+					],
+					[
+						"platform email message",
+						"smartkarma-web/app/models/platform-email-message.js"
+					],
+					[
+						"corproate mail ",
+						"smartkarma-web/app/models/corporate-email-campaign.js"
+					],
+					[
+						"sk mail recipients template",
+						"smartkarma-web/app/components/sk-mail-recipients/template.hbs"
+					],
+					[
+						"sk mail recipients count template",
+						"smartkarma-web/app/components/sk-mail-recipients-count/template.hbs"
+					],
+					[
+						"sk mail compose template",
+						"smartkarma-web/app/components/sk-mail-compose/template.hbs"
+					],
+					[
+						"sk infinity loader template",
+						"sk-common/addon/components/sk-infinity-loader/template.hbs"
+					],
+					[
+						"mixin email ",
+						"sk-common/addon/mixins/models/email-receipt.js"
+					],
+					[
+						"corporate email ",
+						"smartkarma-web/app/models/corporate-email-campaign.js"
+					],
+					[
+						"recipients template",
+						"smartkarma-web/app/components/sk-mail-recipients/template.hbs"
+					],
+					[
+						"sk mails page compo",
+						"smartkarma-web/app/components/sk-mails-page/component.js"
+					],
+					[
+						"sk mail snippet template",
+						"smartkarma-web/app/components/sk-mail-snippet/template.hbs"
+					],
+					[
+						"sk mail schedule template",
+						"smartkarma-web/app/components/sk-mail-schedule/template.hbs"
+					],
+					[
+						"sk content editor style",
+						"sk-common/addon/components/sk-content-editor/style.scss"
+					],
+					[
+						"sk mails page tmeplate",
+						"smartkarma-web/app/components/sk-mails-page/template.hbs"
+					],
+					[
+						"sk mail page component",
+						"smartkarma-web/app/components/sk-mail-page/component.js"
+					],
+					[
+						"sk mail preview template",
+						"smartkarma-web/app/components/sk-mail-preview/template.hbs"
+					],
+					[
+						"sk content editor style ",
+						"sk-common/addon/components/sk-content-editor/style.scss"
+					],
+					[
+						"sk entity news template",
+						"smartkarma-web/app/components/sk-entity-news/template.hbs"
+					],
+					[
+						"meui",
+						"smartkarma-web/app/consts/menu-items.js"
+					],
+					[
+						"sk filing compose modal cmponen",
+						"smartkarma-web/app/components/sk-filing-compose-modal/component.js"
+					],
+					[
+						"sk news detail template",
+						"smartkarma-web/app/components/sk-news-detail/template.hbs"
+					],
+					[
+						"sk entity presentation template",
+						"smartkarma-web/app/components/sk-entity-presentations/template.hbs"
+					],
+					[
+						"sk presentation add button template",
+						"smartkarma-web/app/components/sk-presentation-add-button/template.hbs"
+					],
+					[
+						"sk news add butoncompon",
+						"smartkarma-web/app/components/sk-news-add-button/component.js"
+					],
+					[
+						"sk presetnation add button compo",
+						"smartkarma-web/app/components/sk-presentation-add-button/component.js"
+					],
+					[
+						"model enitty",
+						"smartkarma-web/app/models/entity.js"
+					],
+					[
+						"entity",
+						"smartkarma-web/app/models/entity.js"
+					],
+					[
+						"presentation add button template",
+						"smartkarma-web/app/components/sk-presentation-add-button/template.hbs"
+					],
+					[
+						"sk presentation add button tenmpoate",
+						"smartkarma-web/tests/integration/components/sk-presentation-add-button/component-test.js"
+					],
+					[
+						"entity news template",
+						"smartkarma-web/app/entity/news/template.hbs"
+					],
+					[
+						"sk news add button compo",
+						"smartkarma-web/app/components/sk-news-add-button/component.js"
+					],
+					[
+						"sk news add button component",
+						"smartkarma-web/app/components/sk-news-add-button/component.js"
+					],
+					[
+						"sk filing compose tmeplate",
+						"smartkarma-web/app/components/sk-filing-compose-modal/template.hbs"
+					],
+					[
+						"sk news add button templat",
+						"smartkarma-web/app/components/sk-news-add-button/template.hbs"
+					],
+					[
+						"sk presentations add button tempat",
+						"smartkarma-web/app/components/sk-presentation-add-button/template.hbs"
+					],
+					[
+						"sk report add button template",
+						"smartkarma-web/app/components/sk-report-add-button/template.hbs"
+					],
+					[
+						"sk entity presentations tmeplate",
+						"smartkarma-web/app/components/sk-entity-presentations/template.hbs"
+					],
+					[
+						"entity filing tmeplate",
+						"smartkarma-web/app/entity/filings/template.hbs"
+					],
+					[
+						"entity presetnations template",
+						"smartkarma-web/app/entity/presentations/template.hbs"
+					],
+					[
+						"filing template",
+						"smartkarma-web/app/entity/filings/template.hbs"
+					],
+					[
+						"sk entity news templte",
+						"smartkarma-web/app/components/sk-entity-news/template.hbs"
+					],
+					[
+						"sk news add buttoncompo",
+						"smartkarma-web/app/components/sk-news-add-button/component.js"
+					],
+					[
+						"sk filing addbutontem p",
+						"smartkarma-web/app/components/sk-filing-add-button/template.hbs"
+					],
+					[
+						"sk item add butto ntemplate",
+						"smartkarma-web/app/components/sk-item-add-button/template.hbs"
+					],
+					[
+						"sk toggle containercompo",
+						"sk-common/addon/components/sk-toggle-container/component.js"
+					],
+					[
+						"sk news add button template",
+						"smartkarma-web/app/components/sk-news-add-button/template.hbs"
+					],
+					[
+						"news template",
+						"smartkarma-web/app/entity/news/template.hbs"
+					],
+					[
+						"sk toggle container",
+						"sk-common/addon/components/sk-toggle-container/component.js"
+					],
+					[
+						"sk filing compose temp",
+						"smartkarma-web/app/components/sk-filing-compose-modal/template.hbs"
+					],
+					[
+						"sk filing add button template",
+						"smartkarma-web/app/components/sk-filing-add-button/template.hbs"
+					],
+					[
+						"sk item add button template",
+						"smartkarma-web/app/components/sk-item-add-button/template.hbs"
+					],
+					[
+						"sk news compose modal compo",
+						"smartkarma-web/app/components/sk-news-compose-modal/component.js"
+					],
+					[
+						"sk news add butto ntemplate",
+						"smartkarma-web/app/components/sk-news-add-button/template.hbs"
+					],
+					[
+						"sk item add button te",
+						"smartkarma-web/app/components/sk-item-add-button/template.hbs"
+					],
+					[
+						"sk discussion add button template",
+						"smartkarma-web/app/components/sk-discussion-add-button/template.hbs"
+					],
+					[
+						"sk news compose modal tmeplate",
+						"smartkarma-web/app/components/sk-news-compose-modal/template.hbs"
+					],
+					[
+						"sk filing compose modal template",
+						"smartkarma-web/app/components/sk-filing-compose-modal/template.hbs"
+					],
+					[
+						"sk entity presentations template",
+						"smartkarma-web/app/components/sk-entity-presentations/template.hbs"
+					],
+					[
+						"sk entity reports template",
+						"smartkarma-web/app/components/sk-entity-reports/template.hbs"
+					],
+					[
+						"entity presentations template",
+						"smartkarma-web/app/entity/presentations/template.hbs"
+					],
+					[
+						"router ",
+						"smartkarma-web/app/router.js"
+					],
+					[
+						"corporate presentation",
+						"smartkarma-web/app/models/corporate-presentation.js"
+					],
+					[
+						"corproate report ",
+						"smartkarma-web/app/models/corporate-report.js"
+					],
+					[
+						"entity ",
+						"smartkarma-web/app/models/entity.js"
+					],
+					[
+						"corproate report",
+						"smartkarma-web/app/models/corporate-report.js"
+					],
+					[
+						"coroproate report template",
+						"sk-foundry/app/components/foundry-report-sales-progress/template.hbs"
+					],
+					[
+						"flex page",
+						"smartkarma-web/app/styles/csstyle/flex-page.scss"
+					],
+					[
+						"sk insights pane tmeplate",
+						"smartkarma-web/app/components/sk-insights-pane/template.hbs"
+					],
+					[
+						"sk entity insights component",
+						"smartkarma-web/app/components/sk-entity-insights/component.js"
+					],
+					[
+						"sk entity insights template",
+						"smartkarma-web/app/components/sk-entity-insights/template.hbs"
+					],
+					[
+						"profile reports tmep",
+						"smartkarma-web/app/profile/reports/template.hbs"
+					],
+					[
+						"insight list ",
+						"smartkarma-web/app/models/insight-list.js"
+					],
+					[
+						"insight list storage",
+						"smartkarma-web/app/services/insight-list-storage.js"
+					],
+					[
+						"cache storage ",
+						"sk-common/addon/services/cache-storage.js"
+					],
+					[
+						"sk classificaio insights mteplate",
+						"smartkarma-web/app/components/sk-classification-insights-page/template.hbs"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"\"countries\": () =>"
+					]
+				],
+				"width": 794.0
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 325.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 1440.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"Pro",
+						"Providers"
+					],
+					[
+						"find",
+						"find-a-suitable-plan"
+					],
+					[
+						"ser",
+						"serviceWorker"
+					],
+					[
+						"coll",
+						"collection"
+					],
+					[
+						"colle",
+						"collectionId"
+					],
+					[
+						"collectinI",
+						"collecctionId"
+					],
+					[
+						"scrip",
+						"scriptUrl"
+					],
+					[
+						"regi",
+						"registration"
+					],
+					[
+						"sort",
+						"sortOption"
+					],
+					[
+						"opt",
+						"options"
+					],
+					[
+						"compa",
+						"company\t(globals.js)"
+					],
+					[
+						"insi",
+						"insightCollections"
+					],
+					[
+						"mess",
+						"messagingSenderId"
+					],
+					[
+						"mes",
+						"messagingSenderId"
+					],
+					[
+						"reg",
+						"registerServiceWorker"
+					],
+					[
+						"service",
+						"serviceWorkerReady"
+					],
+					[
+						"servi",
+						"serviceWorkerReady"
+					],
+					[
+						"fire",
+						"firebaseJS\t(external-library.js)"
+					],
+					[
+						"Ember",
+						"EmberPromise"
+					],
+					[
+						"servie",
+						"serviceWorkerRegistration"
+					],
+					[
+						"con",
+						"config"
+					],
+					[
+						"fireba",
+						"firebaseApp"
+					],
+					[
+						"acti",
+						"activated"
+					],
+					[
+						"initi",
+						"initialized"
+					],
+					[
+						"run",
+						"runloop\t(globals.js)"
+					],
+					[
+						"request",
+						"requestPermission"
+					],
+					[
+						"tok",
+						"token"
+					],
+					[
+						"exi",
+						"existingToken"
+					],
+					[
+						"len",
+						"length"
+					],
+					[
+						"to",
+						"tokens"
+					],
+					[
+						"current",
+						"currentUser\t(globals.js)"
+					],
+					[
+						"push-no",
+						"push-notification-token"
+					],
+					[
+						"Emb",
+						"EmberPromise"
+					],
+					[
+						"push",
+						"pushNotification"
+					],
+					[
+						"gropu",
+						"groupChat"
+					],
+					[
+						"entity",
+						"entityId"
+					],
+					[
+						"prevent",
+						"preventDefault\t(component.js)"
+					],
+					[
+						"view",
+						"viewed"
+					],
+					[
+						"stau",
+						"statuses"
+					],
+					[
+						"statu",
+						"status"
+					],
+					[
+						"stat",
+						"statuses"
+					],
+					[
+						"email",
+						"emailReceiptStatuses"
+					],
+					[
+						"mi",
+						"minute\t(template.hbs)"
+					],
+					[
+						"platform",
+						"platform-email-message"
+					],
+					[
+						"plat",
+						"platform-email-messages,p"
+					],
+					[
+						"filter",
+						"filterReceipts"
+					],
+					[
+						"receip",
+						"receipts"
+					],
+					[
+						"fun",
+						"function\t(component.js)"
+					],
+					[
+						"isSch",
+						"isScheduled\t(component.js)"
+					],
+					[
+						"isSche",
+						"isScheduling\t(component.js)"
+					],
+					[
+						"isSc",
+						"isScheduled\t(corporate-email-campaign.js)"
+					],
+					[
+						"edit",
+						"editClass"
+					],
+					[
+						"med",
+						"media.isMobile:--compact:--full\t(component.js)"
+					],
+					[
+						"toggle",
+						"toggleAction"
+					],
+					[
+						"contact",
+						"contactList\t(corporate-email-campaign.js)"
+					],
+					[
+						"lcoker",
+						"lockerClass"
+					],
+					[
+						"snippet",
+						"snippetClass\t(component.js)"
+					],
+					[
+						"canRe",
+						"canReceiveMessageProxy"
+					],
+					[
+						"canView",
+						"canViewCommentsProxy"
+					],
+					[
+						"com",
+						"commentable"
+					],
+					[
+						"comme",
+						"comment"
+					],
+					[
+						"canViewCo",
+						"canViewComments"
+					],
+					[
+						"reo",
+						"resolve"
+					],
+					[
+						"canPostC",
+						"canPostCommentsProxy"
+					],
+					[
+						"comment",
+						"commentable"
+					],
+					[
+						"canpostCom",
+						"canPostCommentsProxy\t(globals.js)"
+					],
+					[
+						"commen",
+						"commentable"
+					],
+					[
+						"Promise",
+						"PromiseObject"
+					],
+					[
+						"isCo",
+						"isCorporateOfficer\t(account.js)"
+					],
+					[
+						"company-dis",
+						"company-disable-posting-comment\t(cannot-comment-reasons.js)"
+					],
+					[
+						"cannot",
+						"cannotCommentReasons"
+					],
+					[
+						"iscl",
+						"isClientOrIP"
+					],
+					[
+						"isClien",
+						"isClientOrIP"
+					],
+					[
+						"otherA",
+						"otherAccount\t(message-group.js)"
+					],
+					[
+						"message",
+						"message-group"
+					],
+					[
+						"pla",
+						"plans"
+					],
+					[
+						"isIN",
+						"isInsightProvider"
+					],
+					[
+						"access",
+						"accessPasses"
+					],
+					[
+						"add",
+						"addAccessPass"
+					],
+					[
+						"insight",
+						"insight_provider"
+					],
+					[
+						"pro",
+						"props"
+					],
+					[
+						"acce",
+						"access"
+					],
+					[
+						"acc",
+						"account"
+					],
+					[
+						"class",
+						"classNames"
+					],
+					[
+						"canMesa",
+						"canMessageProxy\t(account.js)"
+					],
+					[
+						"recei",
+						"receiver"
+					],
+					[
+						"defau",
+						"defaultReason"
+					],
+					[
+						"receiv",
+						"receivers"
+					],
+					[
+						"sender",
+						"senderCanMessageProxy"
+					],
+					[
+						"canMes",
+						"canMessageProxy"
+					],
+					[
+						"repo",
+						"reportSpam"
+					],
+					[
+						"isIns",
+						"isInstaPass\t(account.js)"
+					],
+					[
+						"date",
+						"dateKey"
+					],
+					[
+						"main",
+						"mainClass"
+					],
+					[
+						"curren",
+						"currentUser"
+					],
+					[
+						"right",
+						"rightSide"
+					],
+					[
+						"isSbumi",
+						"isSubmitted\t(insight.js)"
+					],
+					[
+						"read",
+						"readPublicationsPromise"
+					],
+					[
+						"isSub",
+						"isSubmitted\t(insight.js)"
+					],
+					[
+						"isAccout",
+						"isAccountRead"
+					],
+					[
+						"ismin",
+						"isMineProxy.value\t(insight.js)"
+					],
+					[
+						"user",
+						"userTriggered"
+					],
+					[
+						"isShowing",
+						"isShowingLoadDetail"
+					],
+					[
+						"isSu",
+						"isSubmitted"
+					],
+					[
+						"allow",
+						"allowAnnotations"
+					],
+					[
+						"reload",
+						"reloadInsight"
+					],
+					[
+						"reloa",
+						"reloadInsight"
+					],
+					[
+						"readI",
+						"readItems"
+					],
+					[
+						"curre",
+						"currentUser"
+					],
+					[
+						"reads",
+						"readInsights"
+					],
+					[
+						"curn",
+						"currentUser"
+					],
+					[
+						"content-padd",
+						"content-padding-sm"
+					],
+					[
+						"font",
+						"font-size"
+					],
+					[
+						"isInsta",
+						"isInstaPass"
+					],
+					[
+						"chann",
+						"channelName"
+					],
+					[
+						"Pusher",
+						"PusherEventsMixin"
+					],
+					[
+						"activi",
+						"activityFilters"
+					],
+					[
+						"activ",
+						"activityFilters"
+					],
+					[
+						"earlist",
+						"earlist-date"
+					],
+					[
+						"isRefin",
+						"isRefiningActivities"
+					],
+					[
+						"lao",
+						"loadNext"
+					],
+					[
+						"insight-pro",
+						"insight-provider-directory"
+					],
+					[
+						"card",
+						"cardClass"
+					],
+					[
+						"contactC",
+						"contactCSV\t(urls.js)"
+					],
+					[
+						"left-pn",
+						"left-panel-width-small"
+					],
+					[
+						"left",
+						"left-panel-width"
+					],
+					[
+						"item",
+						"itemSnippet"
+					],
+					[
+						"cur",
+						"currentPage"
+					]
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 269.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove p",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"list ",
+						"Package Control: List Packages"
+					],
+					[
+						"color sch",
+						"UI: Select Color Scheme"
+					],
+					[
+						"git ",
+						"git: log"
+					],
+					[
+						"lint",
+						"Preferences: SublimeLinter Settings"
+					],
+					[
+						"color",
+						"UI: Select Color Scheme"
+					],
+					[
+						"color sche",
+						"UI: Select Color Scheme"
+					],
+					[
+						"scheme",
+						"UI: Select Theme"
+					],
+					[
+						"insatll",
+						"Package Control: Install Package"
+					],
+					[
+						"js",
+						"Set Syntax: JavaScript (Babel)"
+					],
+					[
+						"theme",
+						"UI: Select Color Scheme"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"jaba",
+						"Set Syntax: JavaScript (Babel)"
+					],
+					[
+						"eslin",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"eslint",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"instlal",
+						"Package Control: Install Package"
+					],
+					[
+						"remove ",
+						"Package Control: Remove Package"
+					],
+					[
+						"editoco",
+						"Snippet: editorconfig"
+					],
+					[
+						"install paca",
+						"Package Control: Advanced Install Package"
+					],
+					[
+						"javascri",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"focus",
+						"Focus File on Sidebar"
+					],
+					[
+						"focuson",
+						"Focus File on Sidebar"
+					],
+					[
+						"focus ",
+						"Focus File on Sidebar"
+					],
+					[
+						"list pac",
+						"Package Control: List Packages"
+					],
+					[
+						"install ",
+						"Package Control: Install Package"
+					],
+					[
+						"remove pac",
+						"Package Control: Remove Package"
+					],
+					[
+						"remove pack",
+						"Package Control: Remove Package"
+					],
+					[
+						"list pa",
+						"Package Control: List Packages"
+					],
+					[
+						"install pack",
+						"Package Control: Install Package"
+					],
+					[
+						"html",
+						"Set Syntax: HTML"
+					],
+					[
+						"syntax ja",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"git open ",
+						"github: open repo"
+					],
+					[
+						"git gutter goto",
+						"GitGutter: Goto Previous Change"
+					],
+					[
+						"git open",
+						"GitGutter: Goto Previous Change"
+					],
+					[
+						"git",
+						"GitGutter: Support Info"
+					],
+					[
+						"style",
+						"Run Stylefmt"
+					],
+					[
+						"js next",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"js nex",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"merge",
+						"Set Syntax: Sublimerge"
+					],
+					[
+						"gitbl",
+						"Git Blame"
+					],
+					[
+						"diff",
+						"Set Syntax: Diff"
+					],
+					[
+						"blame",
+						"Git Blame"
+					],
+					[
+						"hisotry",
+						"Git: Commit history"
+					],
+					[
+						"git sav",
+						"Preferences: GitSavvy Settings"
+					],
+					[
+						"history",
+						"Git: Commit history"
+					],
+					[
+						"git diff",
+						"git: diff"
+					],
+					[
+						"uninstall",
+						"Build With: Vintageous - Vintageous - Test (All)"
+					],
+					[
+						"prettier",
+						"Prettier: Format this file"
+					],
+					[
+						"package",
+						"Preferences: Browse Packages"
+					],
+					[
+						"key",
+						"Preferences: Key Bindings"
+					],
+					[
+						"keybinding",
+						"Preferences: Key Bindings"
+					],
+					[
+						"format",
+						"Format Code"
+					],
+					[
+						"js prettier",
+						"JsPrettier: Format Code"
+					],
+					[
+						"eslintforma",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"csv",
+						"CSV: Format with Default Values"
+					],
+					[
+						"pyth",
+						"Set Syntax: Python"
+					],
+					[
+						"",
+						"Build: Cancel"
+					],
+					[
+						"fix",
+						"Preferences: Settings – Syntax Specific"
+					],
+					[
+						"side bar",
+						"View: Toggle Open Files in Side Bar"
+					],
+					[
+						"package remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"Package Control: list",
+						"Package Control: List Packages"
+					],
+					[
+						"eslint form",
+						"ESLint Formatter: Format this file"
+					],
+					[
+						"syn js ne",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"syntax js",
+						"Set Syntax: JavaScript"
+					],
+					[
+						"syntax js ne",
+						"Set Syntax: JavaScript Next"
+					],
+					[
+						"syntax han",
+						"Set Syntax: Handlebars"
+					],
+					[
+						"syntax sc",
+						"Set Syntax: SCSS"
+					],
+					[
+						"syntax css",
+						"Set Syntax: CSS"
+					],
+					[
+						"list pack",
+						"Package Control: List Packages"
+					],
+					[
+						"install p",
+						"Package Control: Install Package"
+					],
+					[
+						"fopackage ",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 412.0
+			},
+			"console":
+			{
+				"height": 561.0,
+				"history":
+				[
+					"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+					"view.settings().get('font_face')"
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/Users/liuchao/Documents/smartkarma-web",
+				"/Users/liuchao/Documents/smartkarma-web/app",
+				"/Users/liuchao/Documents/smartkarma-web/app/components",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-public-request-form"
+			],
+			"file_history":
+			[
+				"/Users/liuchao/Documents/sk-common/addon/utils/chart-helper.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/entity.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-public-request-form/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-content-editor/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-login/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-public-request-form/style.scss",
+				"/Users/liuchao/Documents/sk-common/addon/consts/urls.js",
+				"/Users/liuchao/Documents/smartkarma-web/package.json",
+				"/Users/liuchao/Documents/smartkarma-web/config/environment.js",
+				"/Users/liuchao/Documents/sk-common/addon/services/router-path.js",
+				"/Users/liuchao/Documents/smartkarma-web/lib/sk-notification/addon/services/push-notification.js",
+				"/Users/liuchao/Documents/smartkarma-web/lib/sk-notification/public/sw.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/services/globals.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/insights/route.js",
+				"/Users/liuchao/Documents/sk-common/addon/consts/verticals.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/insight-collections.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/ip-categories.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-filters/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-start-insights/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/insight-sort-options.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-filters/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-pane-page/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/services/external-library.js",
+				"/Users/liuchao/Documents/smartkarma-web/lib/sk-notification/public/firebase-messaging-sw.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-notification-sounds/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/insight-list.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/company/reports/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/profile/reports/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-insights/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/models/insight-list-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insights-pane/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/insights/controller.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/account.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/account-settings.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/menu-items.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/insights/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/search-types.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/adapters/comment.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-dashboard-originals/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/application/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/ember-cli-build.js",
+				"/Users/liuchao/Documents/sk-common/ember-cli-build.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/index.html",
+				"/Users/liuchao/Documents/sk-common/vendor/firebase/firebase-5.9.3.min.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-breadcrumbs/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/components/is-hovering.js",
+				"/Users/liuchao/Documents/smartkarma-web/lib/sk-notification/index.js",
+				"/Users/liuchao/Documents/sk-common/vendor/firebase/firebase-5.9.3.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-application/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-push-notification-check/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-push-notification-check/template.hbs",
+				"/Users/liuchao/Documents/sk-common/tests/unit/services/globals-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/application/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-application/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/consts/globals.js",
+				"/Users/liuchao/Desktop/index.html",
+				"/Users/liuchao/Documents/smartkarma-web/app/mixins/models/shareable.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/templates/profile/actions.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/serializers/insight.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/insight.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-investors-external/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-investors-external/template.hbs",
+				"/Users/liuchao/Documents/sk-foundry/app/serializers/insight.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/models/insight.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insight-like-actionbar/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/adapters/insight.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-analytics/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-overview/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-analytics/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-entity-about/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/analytics/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-analytics-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-locker-item-detail/style.scss",
+				"/Users/liuchao/Documents/sk-foundry/package.json",
+				"/Users/liuchao/Documents/sk-common/package.json",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-insight-snippet/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insight-snippet/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-insight-commissioned-badge/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mails-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/mails/mail/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/mails/mail/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/mails/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-snippet/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-compose/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mails-page/component.js",
+				"/Users/liuchao/Documents/sk-foundry/app/components/foundry-account-snippet/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/utils/infinity-record-array.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-recipients-count/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-char-count/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/models/account.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-message-list-page/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-message-compose-bar/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-message-list-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/reset-password/route-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/unsubscribe/route-test.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/router.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/unsubscribe/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-unsubscribe-page/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-unsubscribe-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/unsubscribe/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/unsubscribe/controller.js",
+				"/Users/liuchao/Documents/sk-foundry/app/analytics/controller.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-login/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/mixins/routes/token-login.js",
+				"/Users/liuchao/Documents/sk-foundry/app/reset-password/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/entity/unsubscribe/route.js",
+				"/Users/liuchao/Documents/sk-foundry/app/application/route.js",
+				"/Users/liuchao/Documents/smartkarma-web/tests/unit/entity/unsubscribe/route-test.js",
+				"/Users/liuchao/Documents/sk-foundry/.env.deploy.build",
+				"/Users/liuchao/Documents/smartkarma-web/.env.development",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-mail-preview/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-compose-form/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-message-compose/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-message-compose/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/consts/placeholders.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-message-compose-bar/component.js",
+				"/Users/liuchao/Documents/sk-common/addon/models/message-group.js",
+				"/Users/liuchao/Documents/sk-common/addon/components/sk-chart/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-message-group-list/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-compose-form/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-message-page/template.hbs",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-discussion-box/component.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-discussion-box/template.hbs",
+				"/Users/liuchao/Documents/sk-common/addon/consts/tinymce.js",
+				"/Users/liuchao/Documents/smartkarma-web/app/components/sk-message-list/template.hbs"
+			],
+			"find":
+			{
+				"height": 26.0
+			},
+			"find_in_files":
+			{
+				"height": 111.0,
+				"where_history":
+				[
+					"",
+					"sk-foundry",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"bbgTicker",
+					"chart",
+					"/chart",
+					"hs-input",
+					"injectSElectClass",
+					"hs-input",
+					"on-form-ready",
+					"after",
+					"before",
+					"select",
+					"smartkarma.com",
+					"switch",
+					"switch:",
+					"window.location.href",
+					"on-form-ready",
+					"isLoading",
+					"CANONICAL_HOST",
+					"macro'",
+					"thematic-strategy",
+					"indexO",
+					"verticals",
+					"import { verticals",
+					"=== 'entity",
+					"sk-insights-filters",
+					"sort-options",
+					"sortOptions",
+					"API_path",
+					"get-message",
+					"get(this, 'items').index",
+					"gcm_send",
+					"gcm_sender_id",
+					"watchlists",
+					"menuItems",
+					"init",
+					"messaging",
+					"firebase",
+					"irebase",
+					"manifest",
+					"sk-notificat",
+					"registerListener",
+					"getRegistrations",
+					"json.parse",
+					"msgPayload",
+					"payload",
+					"attributes",
+					"messaging",
+					"registerListener",
+					"initializePromise",
+					"registerListener",
+					"Ound_mapping",
+					"pushNotification",
+					"postMessage",
+					"pushNotification",
+					"notif",
+					"registerListener",
+					"on('",
+					"icon",
+					"click",
+					"showNOtification",
+					"sortMap",
+					"is-report",
+					"sortMap",
+					"includes",
+					"insightSortOptions",
+					"sortMap",
+					"id:",
+					"sortMap",
+					"most viewed",
+					"most relevant",
+					"most recent",
+					"insightSortOPtions",
+					"most recent",
+					"insightSortOPtions",
+					"sortByRelevant",
+					"relevant",
+					"sortmap",
+					"sortMap",
+					"relevant",
+					"insightSortOptions",
+					"most recent",
+					"sk-insights-filters",
+					"smartkarma-web/consts",
+					"most trending",
+					"trending",
+					"most trending",
+					"trending",
+					"most trending",
+					"entity",
+					"managedEntity:",
+					"managedEntity",
+					"isCorporateOffier",
+					"managedEntity",
+					"rsvp.re",
+					"RSVP",
+					"rsvp",
+					"primary-insights",
+					"managedEntity:",
+					"managedEntity",
+					"modelLoadedOnce",
+					"isCompanyList",
+					"updateCollection(",
+					"insightCollections",
+					"collections",
+					"insightCollection",
+					"isCOmpanyList",
+					"updateCollection",
+					"menuItems",
+					"insights",
+					"menuItems",
+					"insights",
+					"data",
+					"serviceWorkerReady",
+					"tokenData",
+					"serviceWorkerReady",
+					"registerServiceWorker",
+					"serviceWorkerREg",
+					"import ENV from ",
+					"external",
+					"firebaseJS",
+					"_messaging",
+					"firebaseApp",
+					"initialize",
+					"getMessagingToken",
+					"getToken",
+					"serviceWorkerRegistration",
+					"init(",
+					"initialize",
+					"register"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"sk-discussion-disabled-me",
+					"pane.removeItem",
+					"removeItems",
+					"addItems",
+					"on-ctrl-enter-key",
+					"{{#",
+					"/*",
+					"{{#",
+					"<",
+					"module",
+					"lightSocialImage",
+					"import",
+					"{{#",
+					"'),",
+					"}}",
+					"{{#",
+					"class=\"",
+					"sk-watchlist-add-button",
+					"accountSubtype",
+					"showContactIR",
+					"globals.navigationMenu.login.title",
+					"firstUrl",
+					"ENV.APP.NEW_DATACLOUD_HOST",
+					"sk-common/mixins/components/document-upload",
+					"sk-common/mixins/components/pusher-events",
+					"sk-common/mixins/components/progress",
+					"sk-common/mixins/components/password-change",
+					"sk-common/mixins/components/insight-vertical-entity",
+					"sk-common/mixins/components/in-viewport",
+					"sk-common/mixins/components/filters-params",
+					"mixins/components/click-away",
+					"mixins/routes/breadcrumbs",
+					"mixins/components/is-hovering",
+					"routes/token-login",
+					"controllers/token-login",
+					"components/attachment-upload",
+					"components/cursor-clickable",
+					"serializers/attachment-upload",
+					"models/attachment-upload",
+					"import RollbackModelMixin from 'sk-common/mixins/models/rollback';",
+					"on-added",
+					"",
+					"import AttachmentMixin from 'sk-common/mixins/models/attachment';",
+					"canBeAddedToLocker",
+					"canBeRequestedPS",
+					"canPSBeRequested",
+					"canRequestPS",
+					"isPsManager",
+					"isPSManager",
+					"isNotPSManager",
+					"canAddToWatchlist",
+					"canBeMuted",
+					"canBeFollowed"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 26.0
+			},
+			"input":
+			{
+				"height": 43.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.GitSavvy":
+			{
+				"height": 120.0
+			},
+			"output.SublimeLinter":
+			{
+				"height": 120.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"output.show_commit_info":
+			{
+				"height": 121.0
+			},
+			"output.vi_out":
+			{
+				"height": 121.0
+			},
+			"pinned_build_system": "",
+			"position": "0 0 0 1440 877 0 0 1440 877 ",
+			"project": "smartkarma.sublime-project",
+			"replace":
+			{
+				"height": 48.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"entity",
+						"smartkarma-web/app/models/entity.js"
+					],
+					[
+						"/chart",
+						"sk-common/addon/utils/chart-helper.js"
+					],
+					[
+						"public request form componen",
+						"smartkarma-web/app/components/sk-public-request-form/component.js"
+					],
+					[
+						"urls",
+						"sk-common/addon/consts/urls.js"
+					],
+					[
+						"public request form ",
+						"smartkarma-web/app/components/sk-public-request-form/component.js"
+					],
+					[
+						"package",
+						"smartkarma-web/package.json"
+					],
+					[
+						"envi",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"push not",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"push notification",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"insights route ",
+						"smartkarma-web/app/insights/route.js"
+					],
+					[
+						"global",
+						"smartkarma-web/app/services/globals.js"
+					],
+					[
+						"insight collection",
+						"smartkarma-web/app/consts/insight-collections.js"
+					],
+					[
+						"consts vertical",
+						"sk-common/addon/consts/verticals.js"
+					],
+					[
+						"sk insights page compoennt",
+						"smartkarma-web/app/components/sk-insights-page/component.js"
+					],
+					[
+						"insight sort option",
+						"smartkarma-web/app/consts/insight-sort-options.js"
+					],
+					[
+						"sk insights filters template",
+						"smartkarma-web/app/components/sk-insights-filters/template.hbs"
+					],
+					[
+						"sw.js",
+						"smartkarma-web/lib/sk-notification/public/sw.js"
+					],
+					[
+						"environ",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"pckage",
+						"smartkarma-web/package.json"
+					],
+					[
+						"external",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"environment",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"push notifcation",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"firebase",
+						"smartkarma-web/lib/sk-notification/public/firebase-messaging-sw.js"
+					],
+					[
+						"env",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"firebase ",
+						"smartkarma-web/lib/sk-notification/public/firebase-messaging-sw.js"
+					],
+					[
+						"insight coll",
+						"smartkarma-web/app/consts/insight-collections.js"
+					],
+					[
+						"company reports template",
+						"smartkarma-web/app/company/reports/template.hbs"
+					],
+					[
+						"sk insights filters compnent",
+						"smartkarma-web/app/components/sk-insights-filters/component.js"
+					],
+					[
+						"insight list ",
+						"smartkarma-web/app/models/insight-list.js"
+					],
+					[
+						"insight sort options",
+						"smartkarma-web/app/consts/insight-sort-options.js"
+					],
+					[
+						"sort ",
+						"smartkarma-web/app/consts/insight-sort-options.js"
+					],
+					[
+						"sort options",
+						"smartkarma-web/app/consts/insight-sort-options.js"
+					],
+					[
+						"sk insights page mteplate",
+						"smartkarma-web/app/components/sk-insights-page/template.hbs"
+					],
+					[
+						"smarkarma consts",
+						"smartkarma-web/app/consts/account-settings.js"
+					],
+					[
+						"consts",
+						"smartkarma-web/app/consts/search-types.js"
+					],
+					[
+						"entity insights route",
+						"smartkarma-web/app/entity/insights/route.js"
+					],
+					[
+						"sk entity insights component",
+						"smartkarma-web/app/components/sk-entity-insights/component.js"
+					],
+					[
+						"sk item filters template",
+						"smartkarma-web/app/components/sk-insights-filters/template.hbs"
+					],
+					[
+						"sk insights page template",
+						"smartkarma-web/app/components/sk-insights-page/template.hbs"
+					],
+					[
+						"sk insights page component",
+						"smartkarma-web/app/components/sk-insights-page/component.js"
+					],
+					[
+						"menu items",
+						"smartkarma-web/app/consts/menu-items.js"
+					],
+					[
+						"fire",
+						"smartkarma-web/lib/sk-notification/public/firebase-messaging-sw.js"
+					],
+					[
+						"externali b",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"config",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"push notiifca",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"external lib",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"embe  cli build",
+						"smartkarma-web/ember-cli-build.js"
+					],
+					[
+						"cli build ",
+						"smartkarma-web/ember-cli-build.js"
+					],
+					[
+						"firebae",
+						"smartkarma-web/lib/sk-notification/public/firebase-messaging-sw.js"
+					],
+					[
+						"clib ",
+						"sk-common/ember-cli-build.js"
+					],
+					[
+						"push notifi",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"index.html",
+						"smartkarma-web/app/index.html"
+					],
+					[
+						"component",
+						"sk-common/addon/components/sk-breadcrumbs/component.js"
+					],
+					[
+						"5.9.",
+						"sk-common/vendor/firebase/firebase-5.9.3.min.js"
+					],
+					[
+						"external li",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"firebase firebase 5.9.3",
+						"sk-common/vendor/firebase/firebase-5.9.3.min.js"
+					],
+					[
+						"build",
+						"sk-common/ember-cli-build.js"
+					],
+					[
+						"external librar",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"application route",
+						"smartkarma-web/app/application/route.js"
+					],
+					[
+						"push notifiction",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"config environem",
+						"smartkarma-web/config/environment.js"
+					],
+					[
+						"service global",
+						"smartkarma-web/app/services/globals.js"
+					],
+					[
+						"application templat",
+						"smartkarma-web/app/application/template.hbs"
+					],
+					[
+						"service globals",
+						"smartkarma-web/app/services/globals.js"
+					],
+					[
+						"sk push notification check template",
+						"smartkarma-web/app/components/sk-push-notification-check/template.hbs"
+					],
+					[
+						"sk notification check",
+						"smartkarma-web/app/components/sk-push-notification-check/component.js"
+					],
+					[
+						"sk-application component",
+						"smartkarma-web/app/components/sk-application/component.js"
+					],
+					[
+						"push noti",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"sk application template",
+						"smartkarma-web/app/components/sk-application/template.hbs"
+					],
+					[
+						"index",
+						"smartkarma-web/app/index.html"
+					],
+					[
+						"push",
+						"smartkarma-web/lib/sk-notification/addon/services/push-notification.js"
+					],
+					[
+						"externallibrar",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"externali ",
+						"sk-common/addon/services/external-library.js"
+					],
+					[
+						"glo",
+						"smartkarma-web/app/services/globals.js"
+					],
+					[
+						"profile action",
+						"smartkarma-web/app/templates/profile/actions.hbs"
+					],
+					[
+						"serializer insight",
+						"smartkarma-web/app/serializers/insight.js"
+					],
+					[
+						"serializer insights",
+						"smartkarma-web/app/serializers/insight.js"
+					],
+					[
+						"sk insight like actionbar template",
+						"smartkarma-web/app/components/sk-insight-like-actionbar/template.hbs"
+					],
+					[
+						"serialize insight",
+						"sk-foundry/app/serializers/insight.js"
+					],
+					[
+						"insight ",
+						"smartkarma-web/app/adapters/insight.js"
+					],
+					[
+						"sk entity analytics tmeplate",
+						"smartkarma-web/app/components/sk-entity-analytics/template.hbs"
+					],
+					[
+						"sk entity overview template",
+						"smartkarma-web/app/components/sk-entity-overview/template.hbs"
+					],
+					[
+						"sk analytics page tmeplate",
+						"smartkarma-web/app/components/sk-analytics-page/template.hbs"
+					],
+					[
+						"sk analytics template",
+						"smartkarma-web/app/analytics/template.hbs"
+					],
+					[
+						"sk entity analytics tmeplat",
+						"smartkarma-web/app/components/sk-entity-analytics/template.hbs"
+					],
+					[
+						"sk entity analytics template",
+						"smartkarma-web/app/components/sk-entity-analytics/template.hbs"
+					],
+					[
+						"sk entity about template",
+						"smartkarma-web/app/components/sk-entity-about/template.hbs"
+					],
+					[
+						"sk entity overview tmeplate",
+						"smartkarma-web/app/components/sk-entity-overview/template.hbs"
+					],
+					[
+						"locker detail style",
+						"smartkarma-web/app/components/sk-locker-item-detail/style.scss"
+					],
+					[
+						"sk insight commissioned badge template",
+						"smartkarma-web/app/components/sk-insight-commissioned-badge/template.hbs"
+					],
+					[
+						"sk insight snippet template",
+						"smartkarma-web/app/components/sk-insight-snippet/template.hbs"
+					],
+					[
+						"service glob",
+						"smartkarma-web/app/services/globals.js"
+					],
+					[
+						"sk mail pagecompoennt",
+						"smartkarma-web/app/components/sk-mail-page/component.js"
+					],
+					[
+						"sk mail page template",
+						"smartkarma-web/app/components/sk-mail-page/template.hbs"
+					],
+					[
+						"foundry account snippet",
+						"sk-foundry/app/components/foundry-account-snippet/template.hbs"
+					],
+					[
+						"infinity ara",
+						"sk-common/addon/utils/infinity-record-array.js"
+					],
+					[
+						"amil recipients countcompo",
+						"smartkarma-web/app/components/sk-mail-recipients-count/component.js"
+					],
+					[
+						"sk mail compose tmeplate",
+						"smartkarma-web/app/components/sk-mail-compose/template.hbs"
+					],
+					[
+						"sk message list page componen",
+						"smartkarma-web/app/components/sk-message-list-page/component.js"
+					],
+					[
+						"skmessge list pgae tmeplate",
+						"smartkarma-web/app/components/sk-message-list-page/template.hbs"
+					],
+					[
+						"sk message compsoe bar template",
+						"sk-common/addon/components/sk-message-compose-bar/template.hbs"
+					],
+					[
+						"route unsubscribe ",
+						"smartkarma-web/tests/unit/unsubscribe/route-test.js"
+					],
+					[
+						"sk unsubscribe page compo",
+						"smartkarma-web/app/components/sk-unsubscribe-page/component.js"
+					],
+					[
+						"router",
+						"smartkarma-web/app/router.js"
+					],
+					[
+						"unsubscibe template",
+						"smartkarma-web/app/unsubscribe/template.hbs"
+					],
+					[
+						"sk unsubscribe page template",
+						"smartkarma-web/app/components/sk-unsubscribe-page/template.hbs"
+					],
+					[
+						"contrller.j",
+						"sk-foundry/app/analytics/controller.js"
+					],
+					[
+						"unsubscribe route test",
+						"smartkarma-web/tests/unit/unsubscribe/route-test.js"
+					],
+					[
+						"unsubscribe ",
+						"smartkarma-web/app/unsubscribe/route.js"
+					],
+					[
+						"entity unscribe  route",
+						"smartkarma-web/app/entity/unsubscribe/route.js"
+					],
+					[
+						"token login",
+						"sk-common/addon/mixins/routes/token-login.js"
+					],
+					[
+						"ubscribe route tet",
+						"smartkarma-web/tests/unit/entity/unsubscribe/route-test.js"
+					],
+					[
+						"env development",
+						"smartkarma-web/.env.development"
+					],
+					[
+						"deploybuild",
+						"sk-foundry/.env.deploy.build"
+					],
+					[
+						"mail preview template",
+						"smartkarma-web/app/components/sk-mail-preview/template.hbs"
+					],
+					[
+						"entity overview tmeplate",
+						"smartkarma-web/app/components/sk-entity-overview/template.hbs"
+					],
+					[
+						"placho",
+						"sk-common/addon/consts/placeholders.js"
+					],
+					[
+						"sk message compose bar template",
+						"sk-common/addon/components/sk-message-compose-bar/template.hbs"
+					],
+					[
+						"sk message list page template",
+						"smartkarma-web/app/components/sk-message-list-page/template.hbs"
+					],
+					[
+						"sk compose form tempalte",
+						"smartkarma-web/app/components/sk-compose-form/template.hbs"
+					],
+					[
+						"sk content editor component",
+						"sk-common/addon/components/sk-content-editor/component.js"
+					],
+					[
+						"model message gropu",
+						"sk-common/addon/models/message-group.js"
+					],
+					[
+						"message group ",
+						"sk-common/addon/models/message-group.js"
+					],
+					[
+						"sk message group list template",
+						"smartkarma-web/app/components/sk-message-group-list/template.hbs"
+					],
+					[
+						"sk message compose bar component",
+						"sk-common/addon/components/sk-message-compose-bar/component.js"
+					],
+					[
+						"sk content editor cmpo",
+						"sk-common/addon/components/sk-content-editor/component.js"
+					],
+					[
+						"sk message pagte tmeplate",
+						"smartkarma-web/app/components/sk-message-page/template.hbs"
+					],
+					[
+						"sk message list page tmeplate",
+						"smartkarma-web/app/components/sk-message-list-page/template.hbs"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"",
+						"\"countries\": () =>"
+					]
+				],
+				"width": 794.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+				"_vintageous_last_buffer_search": "sk-common",
+				"_vintageous_last_buffer_search_command": "vi_slash",
+				"_vintageous_last_char_search_command": "vi_f",
+				"_vintageous_last_character_search": "'",
+				"_vintageous_reset_during_init": true,
+				"vintage":
+				{
+					"_cmdline_cd": "/Users/liuchao/Documents/sk-common"
+				}
+			},
+			"show_minimap": false,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 325.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 37,
+			"workspace_name": "/Users/liuchao/Documents/smartkarma.sublime-workspace"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/Users/liuchao/Documents/smartkarma.sublime-workspace"
+		]
+	}
+}

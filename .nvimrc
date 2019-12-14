@@ -74,6 +74,9 @@ Plug 'tpope/vim-obsession'
 Plug 'wakatime/vim-wakatime'
 Plug 'wellle/targets.vim'
 Plug 'michaeljsmith/vim-indent-object'
+Plug 'jeetsukumaran/vim-indentwise'
+Plug 'flazz/vim-colorschemes'
+Plug 'tpope/vim-sensible'
 
 if isdirectory('/usr/local/opt/fzf')
     Plug '/usr/local/opt/fzf' | Plug 'junegunn/fzf.vim'
@@ -95,10 +98,10 @@ if v:version >= 703
     Plug 'Shougo/vimshell.vim'
 endif
 
-if v:version >= 704
-    "" Snippets
-    Plug 'SirVer/ultisnips'
-endif
+" if v:version >= 704
+"     "" Snippets
+"     Plug 'SirVer/ultisnips'
+" endif
 
 Plug 'honza/vim-snippets'
 
@@ -300,7 +303,7 @@ let g:NERDTreeMapOpenInTabSilent = '<RightMouse>'
 let g:NERDTreeWinSize = 50
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.pyc,*.db,*.sqlite
 nnoremap <silent> <C-e> :NERDTreeFind<CR>
-nnoremap <silent> <C-n> :NERDTreeToggle<CR>
+nnoremap <silent> <C-t> :NERDTreeToggle<CR>
 
 " grep.vim
 nnoremap <silent> <leader>f :Rgrep<CR>
@@ -525,7 +528,7 @@ augroup END
 " vim-python
 augroup vimrc-python
     autocmd!
-    autocmd FileType python setlocal expandtab shiftwidth=2 tabstop=4 colorcolumn=79
+    autocmd FileType python setlocal expandtab nhiftwidth=2 tabstop=4 colorcolumn=79
                 \ formatoptions+=croq softtabstop=2
                 \ cinwords=if,elif,else,for,while,try,except,finally,def,class,with
 augroup END
@@ -736,6 +739,7 @@ set softtabstop=2
 "" Buffer nav
 nnoremap <leader><leader> :bn<CR>
 nnoremap <leader><Tab> :bp<CR>
+nnoremap <Tab> :bn<CR>
 
 " vimux settings
 " Prompt for a command to run
@@ -765,3 +769,7 @@ inoremap <C-k> <Esc>O
 
 " close pane
 noremap <leader>q :close<CR>
+
+" color scheme
+colorscheme wombat
+

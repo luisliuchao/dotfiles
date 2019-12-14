@@ -111,6 +111,7 @@ alias cl="clear"
 alias stratus='ssh skdeployuser@stratus-sg.smartkarma.com'
 alias nimbus='ssh ubuntu@nimbus.smartkarma.com'
 alias ec2='ssh -i ~/.ssh/aws.rsa.pem ec2-user@ec2-13-250-54-64.ap-southeast-1.compute.amazonaws.com'
+alias nuc='ssh liuchao@home.luckyheights.com'
 
 alias jn='jupyter-notebook'
 
@@ -169,10 +170,29 @@ alias mux="tmuxinator"
 # End:
 # vim: ft=zsh sw=2 ts=2 et
 
-# export conda path
-export PATH=/anaconda2/bin:$PATH
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+# export Miniconda path
+export PATH=~/miniconda2/bin:$PATH
+
+# export PATH=$PATH:~/Documents/Flutter/flutter/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/liuchao/miniconda2/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/liuchao/miniconda2/etc/profile.d/conda.sh" ]; then
+        . "/Users/liuchao/miniconda2/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/liuchao/miniconda2/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+

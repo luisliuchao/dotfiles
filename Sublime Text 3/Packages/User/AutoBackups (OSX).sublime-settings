@@ -1,0 +1,8 @@
+{
+  // Don't make changes to this file directly as they can get wiped out when the
+  // plugin is updated. Instead transfer what you need to the 'Settings - User' file.
+
+  // The directory where we'll keep our backups. If empty, we'll try to put them in
+  // ~/sublime_backups
+  "backup_dir": "~/Documents/dotfiles/sublime_backups",
+}
