@@ -103,8 +103,8 @@ alias vi="nvim"
 alias ll='la -lah'
 alias skrelease="bash ../sk-release.sh"
 
-alias trash="rmtrash"
-alias del="rmtrash"
+alias trash="trash-put"
+alias del="trash-put"
 alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 alias cl="clear"
 
@@ -170,29 +170,12 @@ alias mux="tmuxinator"
 # End:
 # vim: ft=zsh sw=2 ts=2 et
 
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-# export Miniconda path
-export PATH=~/miniconda2/bin:$PATH
-
 # export PATH=$PATH:~/Documents/Flutter/flutter/bin
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-# >>> conda initialize >>>
-# !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/liuchao/miniconda2/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/Users/liuchao/miniconda2/etc/profile.d/conda.sh" ]; then
-        . "/Users/liuchao/miniconda2/etc/profile.d/conda.sh"
-    else
-        export PATH="/Users/liuchao/miniconda2/bin:$PATH"
-    fi
-fi
-unset __conda_setup
-# <<< conda initialize <<<
-
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
