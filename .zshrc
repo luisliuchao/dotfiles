@@ -103,9 +103,9 @@ alias vi="nvim"
 alias ll='la -lah'
 alias skrelease="bash ../sk-release.sh"
 
-alias trash="trash-put"
-alias del="trash-put"
-alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
+# alias trash="trash-put"
+# alias del="trash-put"
+# alias rm="echo Use 'del', or the full path i.e. '/bin/rm'"
 alias cl="clear"
 
 alias stratus='ssh skdeployuser@stratus-sg.smartkarma.com'
@@ -116,7 +116,6 @@ alias nuc='ssh liuchao@home.luckyheights.com'
 alias jn='jupyter-notebook'
 
 alias cat="bat"
-alias ping="prettyping"
 alias preview="fzf --preview 'bat --color \"always\" {}'"
 alias top="htop"
 alias help="tldr"
@@ -179,3 +178,23 @@ test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+
+# export YVM_DIR=/usr/local/Cellar/yvm/3.6.7
+# [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+
+# git branch fuzzy search checkout
+# https://coderwall.com/p/ba8afa/git-branch-fuzzy-search-checkout
+fco() {
+  git fetch
+  local branches branch
+  branches=$(git branch -a) &&
+  branch=$(echo "$branches" | fzf +s +m -e) &&
+  git checkout $(echo "$branch" | sed "s:.* remotes/origin/::" | sed "s:.* ::")
+}
+
+# include ocamlmerlin for vscode ocaml extension
+# export PATH=$PATH:~/.opam/default/bin
+
+# include yarn bin path
+export PATH="$PATH:$(yarn global bin)"
