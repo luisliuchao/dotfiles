@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
-        uses: luisliuchao/dotfiles@auto-assign
+        uses: actions/checkout@v2
+        with:
+          ref: auto-assign
       - name: User local auto assign action
         uses: ./.github/actions/auto-assign-action
         with:
