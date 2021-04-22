@@ -15,16 +15,16 @@ export function chooseReviewers(owner: string, config: Config): string[] {
   let chosenReviewers: string[] = []
   const useGroups: boolean =
     useReviewGroups && Object.keys(reviewGroups).length > 0
+  const filterUser = includeOwner ? '' : owner
 
   if (useGroups) {
     chosenReviewers = chooseUsersFromGroups(
-      owner,
       reviewGroups,
       numberOfReviewers,
-      includeOwner
+      filterUser
     )
   } else {
-    chosenReviewers = chooseUsers(reviewers, numberOfReviewers, owner)
+    chosenReviewers = chooseUsers(reviewers, numberOfReviewers, filterUser)
   }
 
   return chosenReviewers
@@ -40,11 +40,14 @@ export function chooseAssignees(owner: string, config: Config): string[] {
     assignees,
     reviewers,
     includeOwner,
+    useAlternateGroups,
+    alternateGroups,
   } = config
   let chosenAssignees: string[] = []
 
   const useGroups: boolean =
     useAssigneeGroups && Object.keys(assigneeGroups).length > 0
+  const filterUser = includeOwner ? '' : owner
 
   if (typeof addAssignees === 'string') {
     if (addAssignees !== 'author') {
@@ -53,19 +56,25 @@ export function chooseAssignees(owner: string, config: Config): string[] {
       )
     }
     chosenAssignees = [owner]
+  } else if (useAlternateGroups) {
+    const groupKeys = Object.keys(alternateGroups)
+    chosenAssignees = chooseUsers(
+      alternateGroups[groupKeys[0]],
+      numberOfAssignees || numberOfReviewers,
+      filterUser
+    )
   } else if (useGroups) {
     chosenAssignees = chooseUsersFromGroups(
-      owner,
       assigneeGroups,
       numberOfAssignees || numberOfReviewers,
-      includeOwner
+      filterUser
     )
   } else {
     const candidates = assignees ? assignees : reviewers
     chosenAssignees = chooseUsers(
       candidates,
       numberOfAssignees || numberOfReviewers,
-      owner
+      filterUser
     )
   }
 
@@ -82,7 +91,7 @@ export function chooseUsers(
   })
 
   // all-assign
-  if (desiredNumber === 0) {
+  if (!desiredNumber) {
     return filteredCandidates
   }
 
@@ -103,12 +112,10 @@ export function includesSkipKeywords(
 }
 
 export function chooseUsersFromGroups(
-  owner: string,
   groups: { [key: string]: string[] } | undefined,
   desiredNumber: number,
-  includeOwner: boolean
+  filterUser: string
 ): string[] {
-  const filterUser = includeOwner ? '' : owner
   let users: string[] = []
   for (const group in groups) {
     users = users.concat(chooseUsers(groups[group], desiredNumber, filterUser))

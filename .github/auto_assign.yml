@@ -1,7 +1,7 @@
 includeOwner: true
 
 # Set to true to add reviewers to pull requests
-addReviewers: false
+# addReviewers: false
 
 # Set to true to add assignees to pull requests
 addAssignees: true
@@ -13,7 +13,7 @@ addAssignees: true
 # A number of assignees to add to the pull request
 # Set to 0 to add all of the assignees.
 # Uses numberOfReviewers if unset.
-numberOfAssignees: 0
+# numberOfAssignees: 0
 
 # Set to true to add reviewers from different groups to pull requests
 # useReviewGroups: true
@@ -26,16 +26,31 @@ numberOfAssignees: 0
 #     - luisliuchao
 
 # Set to true to add assignees from different groups to pull requests
-useAssigneeGroups: true
+# useAssigneeGroups: false
 
 # A list of assignees, split into different froups, to be added to pull requests (GitHub user name)
-assigneeGroups:
+# assigneeGroups:
+#   groupA:
+#     - luisliuchao
+#     - userA
+#     - userB
+#   groupB:
+#     - luisliuchao
+#     - groupB
+
+# Set to true to use alternate groups
+useAlternateGroups: true
+
+# A list of assignees, split into different froups, to be added to pull requests (GitHub user name)
+alternateGroups:
   groupA:
     - luisliuchao
-    - groupA
+    - userA
+    - userB
   groupB:
     - luisliuchao
-    - groupB
+    - userC
+    - userD
 
 # A list of keywords to be skipped the process that add reviewers if pull requests include it
 # skipKeywords:

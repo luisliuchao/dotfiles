@@ -21,6 +21,8 @@ export interface Config {
   reviewGroups: { [key: string]: string[] }
   assigneeGroups: { [key: string]: string[] }
   includeOwner: boolean
+  useAlternateGroups: boolean
+  alternateGroups: { [key: string]: string[] }
 }
 
 export async function handlePullRequest(
