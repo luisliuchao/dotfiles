@@ -133,7 +133,6 @@ export async function fetchConfigurationFile(client: github.GitHub, options) {
 
   const configString = Buffer.from(data.content, 'base64').toString()
   const config = yaml.safeLoad(configString)
-  core.info(`config ${config} ${config.includeOwner ? 'true' : 'false'}`)
 
   return config
 }
