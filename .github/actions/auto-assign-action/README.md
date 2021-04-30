@@ -23,7 +23,6 @@ The action will only run if the PR meets the specified filters
 
 ```yaml
 filterLabels:
-  # Run
   include:
     - my_label
     - another_label

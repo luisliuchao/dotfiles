@@ -1,7 +1,7 @@
 name: 'Alternate Assign'
 on:
-  pull_request:
-    types: [opened, ready_for_review, edited]
+  label:
+    types: [created, edited]
 
 jobs:
   add-reviews:
