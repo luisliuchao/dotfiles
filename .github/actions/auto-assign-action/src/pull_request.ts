@@ -1,6 +1,7 @@
 import * as github from '@actions/github'
 import * as core from '@actions/core'
 import { Context } from '@actions/github/lib/context'
+import fetch from 'node-fetch'
 
 export class PullRequest {
   private client: github.GitHub
