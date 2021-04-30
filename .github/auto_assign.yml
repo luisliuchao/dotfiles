@@ -1,0 +1,16 @@
+groups:
+  groupA:
+    - luisliuchao
+    - userA
+    - userB
+  groupB:
+    - luisliuchao
+    - userC
+    - userD
+  groupC:
+    - luisliuchao
+    - userE
+    - userF
+filterLabels:
+  include:
+    - my_label
