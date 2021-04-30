@@ -22,17 +22,6 @@ export class PullRequest {
     core.debug(JSON.stringify(result))
   }
 
-  async addAssignees(assignees: string[]): Promise<void> {
-    const { owner, repo, number: issue_number } = this.context.issue
-    const result = await this.client.issues.addAssignees({
-      owner,
-      repo,
-      issue_number,
-      assignees,
-    })
-    core.debug(JSON.stringify(result))
-  }
-
   hasAnyLabel(labels: string[]): boolean {
     if (!this.context.payload.pull_request) {
       return false

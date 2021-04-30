@@ -5,24 +5,11 @@ import * as utils from './utils'
 import { PullRequest } from './pull_request'
 
 export interface Config {
-  addReviewers: boolean
-  addAssignees: boolean | string
-  reviewers: string[]
-  assignees: string[]
   filterLabels?: {
     include?: string[]
     exclude?: string[]
   }
-  numberOfAssignees: number
-  numberOfReviewers: number
-  skipKeywords: string[]
-  useReviewGroups: boolean
-  useAssigneeGroups: boolean
-  reviewGroups: { [key: string]: string[] }
-  assigneeGroups: { [key: string]: string[] }
-  includeOwner: boolean
-  useAlternateGroups: boolean
-  alternateGroups: { [key: string]: string[] }
+  groups: { [key: string]: string[] }
   runNumber: number // from github.run_number
 }
 
@@ -36,41 +23,7 @@ export async function handlePullRequest(
   }
 
   const { title, draft, user, number } = context.payload.pull_request
-  const {
-    skipKeywords,
-    useReviewGroups,
-    useAssigneeGroups,
-    reviewGroups,
-    assigneeGroups,
-    addReviewers,
-    addAssignees,
-    filterLabels,
-  } = config
-
-  if (skipKeywords && utils.includesSkipKeywords(title, skipKeywords)) {
-    core.info(
-      'Skips the process to add reviewers/assignees since PR title includes skip-keywords'
-    )
-    return
-  }
-  if (draft) {
-    core.info(
-      'Skips the process to add reviewers/assignees since PR type is draft'
-    )
-    return
-  }
-
-  if (useReviewGroups && !reviewGroups) {
-    throw new Error(
-      "Error in configuration file to do with using review groups. Expected 'reviewGroups' variable to be set because the variable 'useReviewGroups' = true."
-    )
-  }
-
-  if (useAssigneeGroups && !assigneeGroups) {
-    throw new Error(
-      "Error in configuration file to do with using review groups. Expected 'assigneeGroups' variable to be set because the variable 'useAssigneeGroups' = true."
-    )
-  }
+  const { filterLabels, groups } = config
 
   const owner = user.login
   const pr = new PullRequest(client, context)
@@ -80,7 +33,7 @@ export async function handlePullRequest(
       const hasLabels = pr.hasAnyLabel(filterLabels.include)
       if (!hasLabels) {
         core.info(
-          'Skips the process to add reviewers/assignees since PR is not tagged with any of the filterLabels.include'
+          'Skips the process to add reviewers since PR is not tagged with any of the filterLabels.include'
         )
         return
       }
@@ -90,36 +43,21 @@ export async function handlePullRequest(
       const hasLabels = pr.hasAnyLabel(filterLabels.exclude)
       if (hasLabels) {
         core.info(
-          'Skips the process to add reviewers/assignees since PR is tagged with any of the filterLabels.exclude'
+          'Skips the process to add reviewers since PR is tagged with any of the filterLabels.exclude'
         )
         return
       }
     }
   }
 
-  if (addReviewers) {
-    try {
-      const reviewers = utils.chooseReviewers(owner, config)
+  try {
+    const reviewers = utils.chooseReviewers(config)
 
-      if (reviewers.length > 0) {
-        await pr.addReviewers(reviewers)
-        core.info(`Added reviewers to PR #${number}: ${reviewers.join(', ')}`)
-      }
-    } catch (error) {
-      core.warning(error.message)
+    if (reviewers.length > 0) {
+      await pr.addReviewers(reviewers)
+      core.info(`Added reviewers to PR #${number}: ${reviewers.join(', ')}`)
     }
-  }
-
-  if (addAssignees) {
-    try {
-      const assignees = utils.chooseAssignees(owner, config)
-
-      if (assignees.length > 0) {
-        await pr.addAssignees(assignees)
-        core.info(`Added assignees to PR #${number}: ${assignees.join(', ')}`)
-      }
-    } catch (error) {
-      core.warning(error.message)
-    }
+  } catch (error) {
+    core.warning(error.message)
   }
 }
