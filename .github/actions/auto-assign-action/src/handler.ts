@@ -33,6 +33,7 @@ export async function handlePullRequest(
 
     if (reviewers.length > 0) {
       await pr.addAssignees(reviewers)
+      core.info(`Run the workflow with run number ${config.runNumber}`)
       core.info(`Added reviewers to PR #${number}: ${reviewers.join(', ')}`)
     }
   } catch (error) {
