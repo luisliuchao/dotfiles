@@ -9,12 +9,8 @@ Create a separate configuration file for the auto-assign action (e.g. `.github/a
 # groups:
 #   groupA:
 #     - reviewerA
-#     - reviewerB
-#     - reviewerC
 #   groupB:
-#     - reviewerD
-#     - reviewerE
-#     - reviewerF
+#     - reviewerB
 ```
 
 MIT
