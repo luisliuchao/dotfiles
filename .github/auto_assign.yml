@@ -2,12 +2,9 @@ groups:
   groupA:
     - luisliuchao
     - userA
-    - userB
   groupB:
     - luisliuchao
-    - userC
-    - userD
+    - userB
   groupC:
     - luisliuchao
-    - userE
-    - userF
+    - userC
