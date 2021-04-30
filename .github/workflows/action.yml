@@ -9,8 +9,6 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
-        with:
-          ref: auto-assign
       - name: Build the action
         run: |
           cd ./.github/actions/auto-assign-action
