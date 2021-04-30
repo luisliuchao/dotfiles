@@ -5,10 +5,12 @@ import { Context } from '@actions/github/lib/context'
 export class PullRequest {
   private client: github.GitHub
   private context: Context
+  private webhook: string
 
-  constructor(client: github.GitHub, context: Context) {
+  constructor(client: github.GitHub, context: Context, webhook: string) {
     this.client = client
     this.context = context
+    this.webhook = webhook
   }
 
   async addReviewers(reviewers: string[]): Promise<void> {
@@ -31,5 +33,21 @@ export class PullRequest {
       assignees,
     })
     core.debug(JSON.stringify(result))
+  }
+
+  async postMessage(msg: string) {
+    const data = {
+      text: msg,
+    }
+    const options = {
+      method: 'POST',
+      mode: 'no-cors' as 'no-cors',
+      body: JSON.stringify(data),
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    }
+    // to juejin slack #general
+    return fetch(this.webhook, options)
   }
 }
