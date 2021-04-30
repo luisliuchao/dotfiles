@@ -11,6 +11,3 @@ groups:
     - luisliuchao
     - userE
     - userF
-filterLabels:
-  include:
-    - my_label

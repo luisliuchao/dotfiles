@@ -11,6 +11,7 @@ export interface Config {
   }
   groups: { [key: string]: string[] }
   runNumber: number // from github.run_number
+  webhook: string // from secrets.SLACK_WEBHOOK
 }
 
 export async function handlePullRequest(
@@ -26,38 +27,24 @@ export async function handlePullRequest(
   const { filterLabels, groups } = config
 
   const owner = user.login
-  const pr = new PullRequest(client, context)
-
-  if (filterLabels !== undefined) {
-    if (filterLabels.include !== undefined && filterLabels.include.length > 0) {
-      const hasLabels = pr.hasAnyLabel(filterLabels.include)
-      if (!hasLabels) {
-        core.info(
-          'Skips the process to add reviewers since PR is not tagged with any of the filterLabels.include'
-        )
-        return
-      }
-    }
-
-    if (filterLabels.exclude !== undefined && filterLabels.exclude.length > 0) {
-      const hasLabels = pr.hasAnyLabel(filterLabels.exclude)
-      if (hasLabels) {
-        core.info(
-          'Skips the process to add reviewers since PR is tagged with any of the filterLabels.exclude'
-        )
-        return
-      }
-    }
-  }
+  const pr = new PullRequest(client, context, config.webhook)
 
   try {
     const reviewers = utils.chooseReviewers(config)
 
     if (reviewers.length > 0) {
       await pr.addAssignees(reviewers)
-      core.info(`Added reviewers to PR #${number}: ${reviewers.join(', ')}`)
+
+      const msg = `Added reviewers to PR #${number}: ${reviewers.join(
+        ', '
+      )} with run number ${config.runNumber}`
+      core.info(msg)
+
+      // send msg to slack
+      await pr.postMessage(msg)
     }
   } catch (error) {
     core.warning(error.message)
+    pr.postMessage(error.message)
   }
 }

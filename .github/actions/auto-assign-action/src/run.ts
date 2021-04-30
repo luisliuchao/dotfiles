@@ -12,6 +12,9 @@ export async function run() {
     const runNumber = core.getInput('run-number', {
       required: true,
     })
+    const webhook = core.getInput('webhook', {
+      required: true,
+    })
 
     const client = new github.GitHub(token)
     const { repo, sha } = github.context
@@ -25,6 +28,7 @@ export async function run() {
     await handler.handlePullRequest(client, github.context, {
       ...config,
       runNumber: parseInt(runNumber),
+      webhook,
     })
   } catch (error) {
     core.setFailed(error.message)

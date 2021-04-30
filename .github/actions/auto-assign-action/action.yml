@@ -1,5 +1,5 @@
 name: 'Auto Assign Action'
-description: 'Add reviewers to pull requests when pull requests are opened.'
+description: 'Add reviewers to pull requests when pull requests are labelled.'
 author: 'Liu Chao'
 inputs:
   repo-token:
@@ -11,6 +11,9 @@ inputs:
     default: '.github/auto_assign.yml'
   run-number:
     description: 'run number for the action'
+    default: ''
+  webhook:
+    description: 'slack webhook to send the message to'
     default: ''
 runs:
   using: 'node12'
