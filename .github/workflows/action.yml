@@ -1,10 +1,11 @@
 name: 'Alternate Assign'
 on:
-  label:
-    types: [created, edited]
+  pull_request:
+    types: [labeled]
 
 jobs:
   add-reviews:
+    if: ${{ github.event.label.name == 'my_label' }}
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
