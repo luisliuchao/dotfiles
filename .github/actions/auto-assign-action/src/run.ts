@@ -13,7 +13,6 @@ export async function run() {
       required: true,
     })
 
-    core.info(`run number ${runNumber}`)
     const client = new github.GitHub(token)
     const { repo, sha } = github.context
     const config = await utils.fetchConfigurationFile(client, {
@@ -23,7 +22,10 @@ export async function run() {
       ref: sha,
     })
 
-    await handler.handlePullRequest(client, github.context, config)
+    await handler.handlePullRequest(client, github.context, {
+      ...config,
+      runNumber: parseInt(runNumber),
+    })
   } catch (error) {
     core.setFailed(error.message)
   }

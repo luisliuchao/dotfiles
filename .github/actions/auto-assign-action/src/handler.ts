@@ -23,6 +23,7 @@ export interface Config {
   includeOwner: boolean
   useAlternateGroups: boolean
   alternateGroups: { [key: string]: string[] }
+  runNumber: number // from github.run_number
 }
 
 export async function handlePullRequest(

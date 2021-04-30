@@ -42,6 +42,7 @@ export function chooseAssignees(owner: string, config: Config): string[] {
     includeOwner,
     useAlternateGroups,
     alternateGroups,
+    runNumber,
   } = config
   let chosenAssignees: string[] = []
 
@@ -58,8 +59,11 @@ export function chooseAssignees(owner: string, config: Config): string[] {
     chosenAssignees = [owner]
   } else if (useAlternateGroups) {
     const groupKeys = Object.keys(alternateGroups)
+    const numberOfGroups = groupKeys.length
+    const groupIndex = runNumber % numberOfGroups
+    core.info(`group index ${groupIndex} ${runNumber} ${numberOfGroups}`)
     chosenAssignees = chooseUsers(
-      alternateGroups[groupKeys[0]],
+      alternateGroups[groupKeys[groupIndex]],
       numberOfAssignees || numberOfReviewers,
       filterUser
     )

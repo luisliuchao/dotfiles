@@ -9,8 +9,8 @@ inputs:
   configuration-path:
     description: 'A path for the auto-assign configuration'
     default: '.github/auto_assign.yml'
-  run-time:
-    description: 'run time for the action'
+  run-number:
+    description: 'run number for the action'
     default: ''
 runs:
   using: 'node12'
