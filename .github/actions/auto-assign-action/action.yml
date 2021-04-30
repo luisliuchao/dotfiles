@@ -1,5 +1,5 @@
 name: 'Auto Assign Action'
-description: 'Add reviewers to pull requests when pull requests are labelled.'
+description: 'Add reviewers to pull requests when pull requests are labeled.'
 author: 'Liu Chao'
 inputs:
   repo-token:
