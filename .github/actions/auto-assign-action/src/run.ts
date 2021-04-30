@@ -9,7 +9,11 @@ export async function run() {
     const configPath = core.getInput('configuration-path', {
       required: true,
     })
+    const runNumber = core.getInput('run-number', {
+      required: true,
+    })
 
+    core.info(`run number ${runNumber}`)
     const client = new github.GitHub(token)
     const { repo, sha } = github.context
     const config = await utils.fetchConfigurationFile(client, {
